@@ -1,0 +1,3057 @@
+#language_list
+=zh_CN
+=en_US
+
+#advanced_mode_list
+=setting_advanced_on
+=setting_advanced_off
+
+
+#default_name_category
+=not_use_default
+=weapon_and_armor
+=inventory_artifacts
+=court_artifacts
+=historical_artifacts
+=easteregg
+=book
+=banner
+
+	#default_name_not_use_default
+	=[placeholder]
+
+	#default_name_weapon_and_armor
+	=sword
+	=dagger
+	=axe
+	=hammer
+	=spear
+	=mace
+	=armor
+	=regalia
+	=crown
+	=brooch
+
+	#default_name_inventory_artifacts
+	=leopard_hat
+	=kurgan_ornament
+	=kurgan_saddle
+	=frogspawn_jar
+	=mountain_rock
+	=tiny_sculpture_trinket
+	=tiny_box_trinket
+	=tiny_chest_trinket
+	=tiny_cabinet_trinket
+	=tiny_throne_trinket
+	=necklace
+	=pressed_flower
+	=stewardship_old_ledger
+	=lover_keepsake_hair
+	=lover_keepsake_clothes_male
+	=lover_keepsake_clothes_female
+	=lover_keepsake_shell
+	=christian_saint_bone
+	=gilded_rats_tail
+	=quail_eggshell_gem
+	=stained_glass_shard
+	=xylospongium
+	=st_davids_morsel
+	=platypus_figurine
+	=terracotta_toy_fowl
+	=stewardship_general.2001.artifact.potsherd_holy
+	=small_bell_beaker
+	=serpentine_budai
+	=mythical_creature_horn
+	=mythical_creature_figurine
+	=st_davids_taper
+	=jira_stick
+	=lucky_coin
+	=lavender_jade_pendant
+	=sekhmet_ring
+	=scarab_brooch
+	
+	#default_name_court_artifacts
+	=naked_tapestry
+	=crocodile_tapestry
+	=wall_tapestry
+	=throne
+	=chest
+	=chest_name
+	=cabinet
+	=cabinet_name
+	=diwan
+	=table
+	=wall_shield
+	=wall_shield_name
+	=small_hide
+	=animal_hide_medium
+	=animal_hide_big
+	=wall_skull
+	=wall_narwhal_horn
+	=sculpture
+	=sculpture_religious
+	=sculpture_religious_christian
+	=box_small
+	=box_medium
+	=goblet
+	=pedestal_rock
+	=pedestal_pouch
+	=pedestal_scroll
+	=pedestal_religious_head_letter
+	=pedestal_crucifix
+	=pedestal_cross
+	=pedestal_human_skull
+	=pedestal_skull_of_the_enemy
+	=pedestal_skull_of_the_apostate
+	=pedestal_massive_diamond
+	=pedestal_cornerstone
+	=pedestal_reliquary_christian
+	=pedestal_reliquary_islam
+	=pedestal_reliquary_buddhism
+	=pedestal_reliquary_judaism
+	=pedestal_reliquary_6050_saint
+	=pedestal_skull_goblet
+	=skull_goblet_trinket
+	=philosophers_stone
+	=panacea
+	=elixir
+	
+	#default_name_historical_artifacts
+	=reichskrone
+	=nikephoros_crown
+	=skull_cap_charlemagne
+	=papal_tiara
+	=essen_crown
+	=monomachus_crown
+	=edmund_head
+	=dhammapada
+	=excalibur
+	=vinaya_pitaka
+	=sutta_pitaka
+	=abhidhamma_pitaka
+	=pedestal_koh_i_noor
+	=jewelled_danda
+	=aruval
+	=khanda
+	=makarakundala
+	=cintamani
+	=navaratna
+	=shankha_conch
+	=pedestal_great_diamond
+	=al_taj_crown
+	=qadib_al_mulk
+	=al_sayf_al_khass
+	=al_dawat
+	=al_hafir
+	=wall_banner_thankfulness
+	=arms_of_alex
+	=pedestal_al_jabal
+	=pedestal_al_yatima
+	=dagger_of_rostam
+	=spear_of_ascalon
+	=zomorrodnegar
+	=muhammads_epistles
+	=kaves_apron
+	=joyeuse
+	=durendal
+	=curtana
+	=ring_angelica
+	=olifant
+	=colada
+	=aram
+	=ikenga
+	=mmaagha_kamalu
+	=bronze_head
+	=crystal_carving
+	=ibeji
+	=kantele
+	=sledovik
+	=nagelring
+	=kladenets
+	=legbiter
+	=quernbiter
+	=dragvandil
+	=szczerbiec
+	=chinese_caligraphy
+	=ruyi
+	=turquoise_throne
+	=peacock_throne
+	=banner_islam
+	=spear_of_the_prophet
+	=mantle_of_the_prophet_islam
+	=afarganyu
+	=siddhachakra
+	=staff_kakusandha
+	=water_filter_konagamana
+	=robe_kassapa
+	=throne_charlemagne
+	=throne_solomon
+	=throne_stone_scone
+	=wall_banner_kaviani
+	=wall_big_edessa
+	=wall_cid_sword
+	=wall_sword_muhammad
+	=wall_sword_attila
+	=sculpture_ark_of_covenant
+	=sculpture_armor_babr
+	=sculpture_cabinet_pentapyrgion
+	=pedestal_crown_justinian
+	=pedestal_menorah
+	=pedestal_gold_nugget
+	=pedestal_jamshid
+	=pedestal_spear_destiny
+	=pedestal_david_harp
+	=pedestal_branch
+	=pedestal_crown_iron
+	=pedestal_crown_thorns
+	=pedestal_veil_veronica
+	
+	#default_name_easteregg
+	=easteregg_artifact_elisabeth_plush
+	=easteregg_artifact_nicks_weapon
+	=easteregg_artifact_chad_book
+	=easteregg_artifact_chad_dagger
+	=easteregg_artifact_veronica_book
+	=easteregg_artifact_jason_sword
+	
+	#default_name_book
+	=beaver_book
+	=prince_archivist_love_poem
+	=witch_queen_love_poem
+	=artifact_book
+	
+	#default_name_banner
+	=wall_banner_battle
+	=wall_banner_royal
+	=wall_banner_house
+	=wall_banner_dynasty
+	
+
+#default_description_category
+=not_use_default
+=weapon_and_armor
+=inventory_artifacts
+=court_artifacts
+=historical_artifacts
+=easteregg
+=book
+=banner
+
+	#default_description_not_use_default
+	=[placeholder]
+	
+	#default_description_weapon_and_armor
+	=sword
+	=dagger
+	=axe
+	=hammer
+	=spear
+	=mace
+	=armor
+	=regalia
+	=crown
+	=brooch
+
+	#default_description_inventory_artifacts
+	=leopard_hat
+	=kurgan_ornament
+	=kurgan_saddle
+	=frogspawn_jar
+	=mountain_rock
+	=tiny_sculpture_trinket
+	=tiny_box_trinket
+	=tiny_chest_trinket
+	=tiny_cabinet_trinket
+	=tiny_throne_trinket
+	=necklace
+	=pressed_flower
+	=stewardship_old_ledger
+	=lover_keepsake_hair
+	=lover_keepsake_clothes
+	=lover_keepsake_shell
+	=christian_saint_bone
+	=gilded_rats_tail
+	=quail_eggshell_gem
+	=stained_glass_shard
+	=xylospongium
+	=st_davids_morsel
+	=platypus_figurine
+	=terracotta_toy_fowl
+	=stewardship_general.2001.artifact.potsherd_holy
+	=small_bell_beaker
+	=serpentine_budai
+	=mythical_creature_horn
+	=mythical_creature_figurine
+	=st_davids_taper
+	=jira_stick
+	=lucky_coin
+	=lavender_jade_pendant
+	=sekhmet_ring
+	=scarab_brooch
+	
+	#default_description_court_artifacts
+	=naked_tapestry
+	=crocodile_tapestry
+	=wall_tapestry
+	=throne
+	=chest
+	=cabinet
+	=diwan
+	=table
+	=wall_shield
+	=small_hide
+	=animal_hide_medium
+	=animal_hide_big
+	=wall_skull
+	=wall_narwhal_horn
+	=sculpture
+	=sculpture_religious
+	=sculpture_religious_christian
+	=box_small
+	=box_medium
+	=goblet
+	=pedestal_rock
+	=pedestal_pouch
+	=pedestal_scroll
+	=pedestal_religious_head_letter
+	=pedestal_crucifix
+	=pedestal_cross
+	=pedestal_human_skull
+	=pedestal_human_skull_specific
+	=pedestal_skull_of_the_enemy
+	=pedestal_skull_of_the_apostate
+	=pedestal_massive_diamond
+	=pedestal_cornerstone
+	=pedestal_reliquary_christian
+	=pedestal_reliquary_islam
+	=pedestal_reliquary_buddhism
+	=pedestal_reliquary_judaism
+	=pedestal_reliquary_6050_saint
+	=pedestal_skull_goblet
+	=skull_goblet_trinket
+	=philosophers_stone
+	=panacea
+	=elixir
+	
+	#default_description_historical_artifacts
+	=reichskrone
+	=nikephoros_crown
+	=skull_cap_charlemagne
+	=papal_tiara
+	=essen_crown
+	=monomachus_crown
+	=edmund_head
+	=dhammapada
+	=excalibur
+	=vinaya_pitaka
+	=sutta_pitaka
+	=abhidhamma_pitaka
+	=pedestal_koh_i_noor
+	=jewelled_danda
+	=aruval
+	=khanda
+	=makarakundala
+	=cintamani_hindu
+	=cintamani_buddhist
+	=navaratna
+	=shankha_conch
+	=pedestal_great_diamond
+	=al_taj_crown
+	=qadib_al_mulk
+	=al_sayf_al_khass
+	=al_dawat
+	=al_hafir
+	=wall_banner_thankfulness
+	=arms_of_alex
+	=pedestal_al_jabal
+	=pedestal_al_yatima
+	=dagger_of_rostam
+	=spear_of_ascalon
+	=zomorrodnegar
+	=muhammads_epistles
+	=kaves_apron
+	=joyeuse
+	=durendal
+	=curtana
+	=ring_angelica
+	=olifant
+	=colada
+	=aram
+	=ikenga
+	=mmaagha_kamalu
+	=bronze_head
+	=crystal_carving
+	=ibeji
+	=kantele
+	=sledovik
+	=nagelring
+	=kladenets
+	=legbiter
+	=quernbiter
+	=dragvandil
+	=szczerbiec
+	=chinese_caligraphy
+	=ruyi
+	=turquoise_throne
+	=peacock_throne
+	=banner_islam
+	=spear_of_the_prophet
+	=mantle_of_the_prophet_islam
+	=afarganyu
+	=siddhachakra
+	=staff_kakusandha
+	=water_filter_konagamana
+	=robe_kassapa
+	=throne_charlemagne
+	=throne_solomon
+	=throne_stone_scone
+	=wall_banner_kaviani
+	=wall_big_edessa
+	=wall_cid_sword
+	=wall_sword_muhammad
+	=wall_sword_attila
+	=sculpture_ark_of_covenant
+	=sculpture_armor_babr
+	=sculpture_cabinet_pentapyrgion
+	=pedestal_crown_justinian
+	=pedestal_menorah
+	=pedestal_gold_nugget
+	=pedestal_jamshid
+	=pedestal_spear_destiny
+	=pedestal_david_harp
+	=pedestal_branch
+	=pedestal_crown_iron
+	=pedestal_crown_thorns
+	=pedestal_veil_veronica
+	
+	#default_description_easteregg
+	=easteregg_artifact_elisabeth_plush
+	=easteregg_artifact_nicks_weapon
+	=easteregg_artifact_chad_book
+	=easteregg_artifact_chad_dagger
+	=easteregg_artifact_veronica_book
+	=easteregg_artifact_jason_sword
+	
+	#default_description_book
+	=beaver_book
+	=prince_archivist_love_poem
+	=witch_queen_love_poem
+	=artifact_book
+	
+	#default_description_banner
+	=wall_banner_battle
+	=wall_banner_royal
+	=wall_banner_house
+	=wall_banner_dynasty
+
+
+		#default_sword_name
+		=artifact_sword_name
+		=this = { save_scope_as = owner }
+		#default_sword_description
+		=artifact_sword_description
+		=this = { save_scope_as = owner }
+
+		#default_dagger_name
+		=artifact_dagger_name
+		=this = { save_scope_as = owner }
+		#default_dagger_description
+		=artifact_dagger_description
+		=this = { save_scope_as = owner }
+
+		#default_axe_name
+		=artifact_axe_name
+		=this = { save_scope_as = owner }
+		#default_axe_description
+		=artifact_axe_description
+		=this = { save_scope_as = owner }
+
+		#default_hammer_name
+		=artifact_hammer_name
+		=this = { save_scope_as = owner }
+		#default_hammer_description
+		=artifact_hammer_description
+		=this = { save_scope_as = owner }
+
+		#default_spear_name
+		=artifact_spear_name
+		=this = { save_scope_as = owner }
+		#default_spear_description
+		=artifact_spear_description
+		=this = { save_scope_as = owner }
+
+		#default_mace_name
+		=artifact_mace_name
+		=this = { save_scope_as = owner }
+		#default_mace_description
+		=artifact_mace_description
+		=this = { save_scope_as = owner }
+
+		#default_armor_name
+		=artifact_armor_name
+		=this = { save_scope_as = owner }
+		#default_armor_description
+		=artifact_armor_description
+		=this = { save_scope_as = owner }
+
+		#default_regalia_name
+		=artifact_regalia_name
+		=this = { save_scope_as = owner }
+		#default_regalia_description
+		=artifact_regalia_description
+		=this = { save_scope_as = owner }
+
+		#default_crown_name
+		=artifact_crown_name
+		=this = { save_scope_as = owner }
+		#default_crown_description
+		=artifact_crown_description
+		=this = { save_scope_as = owner }
+
+		#default_brooch_name
+		=artifact_brooch_name
+		=this = { save_scope_as = owner }
+		#default_brooch_description
+		=artifact_brooch_description
+		=this = { save_scope_as = owner }
+
+
+		#default_leopard_hat_name
+		=leopard_hat_name
+		#default_leopard_hat_description
+		=leopard_hat_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_kurgan_ornament_name
+		=kurgan_ornament_name
+		#default_kurgan_ornament_description
+		=kurgan_ornament_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_kurgan_saddle_name
+		=kurgan_saddle_name
+		#default_kurgan_saddle_description
+		=kurgan_saddle_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_frogspawn_jar_name
+		=frogspawn_jar_name
+		#default_frogspawn_jar_description
+		=frogspawn_jar_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_mountain_rock_name
+		=mountain_rock_name
+		#default_mountain_rock_description
+		=mountain_rock_description
+		=this = { save_scope_as = inspiration_owner }
+		=location = { save_scope_as = mountain_location }
+
+		#default_tiny_sculpture_trinket_name
+		=tiny_sculpture_trinket_name
+		#default_tiny_sculpture_trinket_description
+		=tiny_sculpture_trinket_description
+		=this = { save_scope_as = statue_owner }
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_tiny_box_trinket_name
+		=tiny_box_trinket_name
+		#default_tiny_box_trinket_description
+		=tiny_box_trinket_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_tiny_chest_trinket_name
+		=tiny_chest_trinket_name
+		#default_tiny_chest_trinket_description
+		=tiny_chest_trinket_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_tiny_cabinet_trinket_name
+		=tiny_cabinet_trinket_name
+		#default_tiny_cabinet_trinket_description
+		=tiny_cabinet_trinket_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_tiny_throne_trinket_name
+		=tiny_throne_trinket_name
+		#default_tiny_throne_trinket_description
+		=tiny_throne_trinket_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_necklace_name
+		=artifact_necklace_name
+		#default_necklace_description
+		=artifact_necklace_description
+
+		#default_pressed_flower_name
+		=artifact_pressed_flower_name
+		=save_scope_value_as = { name = flower_species value = flag:flower_type_aster }
+		#default_pressed_flower_description
+		=artifact_pressed_flower_description
+		=save_scope_value_as = { name = flower_species value = flag:flower_type_aster }
+
+		#default_stewardship_old_ledger_name
+		=stewardship_old_ledger_name
+		#default_stewardship_old_ledger_description
+		=stewardship_old_ledger_description
+
+		#default_lover_keepsake_hair_name
+		=lover_keepsake_hair_name
+		=random_relation = { type = lover save_scope_as = original_lover }
+		#default_lover_keepsake_hair_description
+		=lover_keepsake_hair_description
+		=this = { save_scope_as = lover }
+		=random_relation = { type = lover save_scope_as = original_lover }
+
+		#default_lover_keepsake_clothes_male_name
+		=lover_keepsake_clothes_male_name
+		=random_relation = { type = lover save_scope_as = original_lover }
+		#default_lover_keepsake_clothes_female_name
+		=lover_keepsake_clothes_female_name
+		=random_relation = { type = lover save_scope_as = original_lover }
+		#default_lover_keepsake_clothes_description
+		=lover_keepsake_clothes_description
+		=this = { save_scope_as = lover }
+		=random_relation = { type = lover save_scope_as = original_lover }
+
+		#default_lover_keepsake_shell_name
+		=lover_keepsake_shell_name
+		=random_relation = { type = lover save_scope_as = original_lover }
+		#default_lover_keepsake_shell_description
+		=lover_keepsake_shell_description
+		=this = { save_scope_as = lover }
+		=random_relation = { type = lover save_scope_as = original_lover }
+
+		#default_christian_saint_bone_name
+		=christian_saint_bone_name
+		=this = { save_scope_as = saint_bone_owner }
+		#default_christian_saint_bone_description
+		=christian_saint_bone_description
+		=this = { save_scope_as = saint_bone_owner }
+		=faith = { random_holy_site = { save_scope_as = destination_title }}
+
+		#default_gilded_rats_tail_name
+		=gilded_rats_tail
+		#default_gilded_rats_tail_description
+		=gilded_rats_tail.desc
+
+		#default_quail_eggshell_gem_name
+		=quail_eggshell_gem
+		#default_quail_eggshell_gem_description
+		=quail_eggshell_gem.desc
+
+		#default_stained_glass_shard_name
+		=stained_glass_shard
+		#default_stained_glass_shard_description
+		=stained_glass_shard.desc
+
+		#default_xylospongium_name
+		=xylospongium
+		#default_xylospongium_description
+		=xylospongium.desc
+
+		#default_st_davids_morsel_name
+		=st_davids_morsel
+		#default_st_davids_morsel_description
+		=st_davids_morsel.desc
+
+		#default_platypus_figurine_name
+		=platypus_figurine
+		#default_platypus_figurine_description
+		=platypus_figurine.desc
+
+		#default_terracotta_toy_fowl_name
+		=terracotta_toy_fowl
+		#default_terracotta_toy_fowl_description
+		=terracotta_toy_fowl.desc
+
+		#default_stewardship_general.2001.artifact.potsherd_holy_name
+		=stewardship_general.2001.artifact.potsherd_holy
+		#default_stewardship_general.2001.artifact.potsherd_holy_description
+		=stewardship_general.2001.artifact.potsherd_holy.desc
+		=faith = { random_holy_site = { save_scope_as = trinket_holy_site }}
+
+		#default_small_bell_beaker_name
+		=small_bell_beaker
+		#default_small_bell_beaker_description
+		=small_bell_beaker.desc
+
+		#default_serpentine_budai_name
+		=serpentine_budai
+		#default_serpentine_budai_description
+		=serpentine_budai.desc
+
+		#default_mythical_creature_horn_name
+		=mythical_creature_horn
+		=set_variable = { name = horned_mythical_creature value = flag:tarasque }
+		#default_mythical_creature_horn_description
+		=mythical_creature_horn.desc
+		=set_variable = { name = horned_mythical_creature value = flag:tarasque }
+
+		#default_mythical_creature_figurine_name
+		=mythical_creature_figurine
+		=set_variable = { name = trinket_adjective_followup value = flag:adorned }
+		=set_variable = { name = regional_mythical_creature_trinket value = flag:water_leper }
+		#default_mythical_creature_figurine_description
+		=mythical_creature_figurine.desc
+		=set_variable = { name = regional_mythical_creature_trinket value = flag:water_leper }
+		=capital_province = { save_scope_as = target_location }
+
+		#default_st_davids_taper_name
+		=st_davids_taper
+		#default_st_davids_taper_description
+		=st_davids_taper.desc
+
+		#default_jira_stick_name
+		=jira_stick
+		#default_jira_stick_description
+		=jira_stick.desc
+
+		#default_lucky_coin_name
+		=lucky_coin
+		#default_lucky_coin_description
+		=lucky_coin.desc
+		=capital_province = { save_scope_as = target_location }
+
+		#default_lavender_jade_pendant_name
+		=lavender_jade_pendant
+		#default_lavender_jade_pendant_description
+		=lavender_jade_pendant.desc
+
+		#default_sekhmet_ring_name
+		=sekhmet_ring
+		#default_sekhmet_ring_description
+		=sekhmet_ring.desc
+
+		#default_scarab_brooch_name
+		=scarab_brooch
+		#default_scarab_brooch_description
+		=scarab_brooch.desc
+
+
+		#default_naked_tapestry_name
+		=naked_tapestry_name
+		#default_naked_tapestry_description
+		=naked_tapestry_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_crocodile_tapestry_name
+		=crocodile_tapestry_name
+		#default_crocodile_tapestry_description
+		=crocodile_tapestry_description
+		=this = { save_scope_as = inspiration_owner }
+
+		#default_wall_tapestry_name
+		=artifact_wall_tapestry_name
+		=this = { save_scope_as = owner }
+		#default_wall_tapestry_description
+		=artifact_wall_tapestry_description
+
+		#default_throne_name
+		=artifact_throne_name
+		=this = { save_scope_as = owner }
+		#default_throne_description
+		=artifact_throne_description
+
+		#default_chest_name
+		=artifact_chest
+		#default_chest_name_name
+		=artifact_chest_name
+		=this = { save_scope_as = owner }
+		#default_chest_description
+		=artifact_chest_description
+
+		#default_cabinet_name
+		=artifact_cabinet
+		#default_cabinet_name_name
+		=artifact_cabinet_name
+		=this = { save_scope_as = owner }
+		#default_cabinet_description
+		=artifact_cabinet_description
+
+		#default_diwan_name
+		=artifact_diwan_name
+		=this = { save_scope_as = owner }
+		#default_diwan_description
+		=artifact_diwan_description
+
+		#default_table_name
+		=artifact_table_name
+		=this = { save_scope_as = owner }
+		#default_table_description
+		=artifact_table_description
+
+		#default_wall_shield_name
+		=artifact_wall_shield
+		#default_wall_shield_name_name
+		=artifact_wall_shield_name
+		=this = { save_scope_as = owner }
+		#default_wall_shield_description
+		=artifact_wall_shield_description
+
+		#default_small_hide_name
+		=artifact_small_hide_name
+		=this = { save_scope_as = owner }
+		=set_variable = { name = adventure_artifact_location value = primary_title days = 1 }
+		#default_small_hide_description
+		=artifact_small_hide_description
+
+		#default_animal_hide_medium_name
+		=artifact_animal_hide_medium_name
+		=this = { save_scope_as = owner }
+		=set_variable = { name = adventure_artifact_location value = primary_title days = 1 }
+		#default_animal_hide_medium_description
+		=artifact_animal_hide_medium_description
+		=capital_province = { save_scope_as = location }
+
+		#default_animal_hide_big_name
+		=artifact_animal_hide_big_name
+		=this = { save_scope_as = owner }
+		=set_variable = { name = adventure_artifact_location value = primary_title days = 1 }
+		#default_animal_hide_big_description
+		=artifact_animal_hide_big_description
+		=capital_province = { save_scope_as = location }
+
+		#default_wall_skull_name
+		=artifact_wall_skull_name
+		=this = { save_scope_as = owner }
+		=set_variable = { name = adventure_artifact_location value = primary_title days = 1 }
+		#default_wall_skull_description
+		=artifact_wall_skull_description
+		=capital_province = { save_scope_as = location }
+
+		#default_wall_narwhal_horn_name
+		=artifact_wall_narwhal_horn_name
+		#default_wall_narwhal_horn_description
+		=artifact_wall_narwhal_horn
+
+		#default_sculpture_name
+		=artifact_sculpture_name
+		#default_sculpture_description
+		=artifact_sculpture_description
+		=this = { save_scope_as = owner }
+
+		#default_sculpture_religious_name
+		=artifact_sculpture_religious_name
+		=this = { save_scope_as = owner }
+		#default_sculpture_religious_description
+		=artifact_sculpture_religious_description
+		=this = { save_scope_as = owner }
+
+		#default_sculpture_religious_christian_name
+		=artifact_sculpture_religious_christian_name
+		=this = { save_scope_as = owner }
+		#default_sculpture_religious_christian_description
+		=artifact_sculpture_religious_christian_description
+		=this = { save_scope_as = owner }
+
+		#default_box_small_name
+		=artifact_box_small_name
+		=this = { save_scope_as = owner }
+		#default_box_small_description
+		=artifact_box_small_description
+
+		#default_box_medium_name
+		=artifact_box_medium_name
+		=this = { save_scope_as = owner }
+		#default_box_medium_description
+		=artifact_box_medium_description
+
+		#default_goblet_name
+		=artifact_goblet_name
+		=this = { save_scope_as = owner }
+		#default_goblet_description
+		=artifact_goblet_description
+
+		#default_pedestal_rock_name
+		=artifact_pedestal_rock_name
+		#default_pedestal_rock_description
+		=artifact_pedestal_rock_description
+		=this = { save_scope_as = owner }
+
+		#default_pedestal_pouch_name
+		=artifact_pedestal_pouch_name
+		=this = { save_scope_as = owner }
+		#default_pedestal_pouch_description
+		=artifact_pedestal_pouch_description
+
+		#default_pedestal_scroll_name
+		=artifact_pedestal_scroll_name
+		=this = { save_scope_as = owner }
+		#default_pedestal_scroll_description
+		=artifact_pedestal_scroll_description
+		=this = { save_scope_as = owner }
+
+		#default_pedestal_religious_head_letter_name
+		=artifact_pedestal_religious_head_letter_name
+		=random_theocratic_ruler = { save_scope_as = compliment_receiver }
+		#default_pedestal_religious_head_letter_description
+		=artifact_pedestal_religious_head_letter_name
+		=this = { save_scope_as = letter_receiver }
+		=random_theocratic_ruler = { save_scope_as = compliment_receiver }
+
+		#default_pedestal_crucifix_name
+		=artifact_pedestal_crucifix_name
+		=this = { save_scope_as = owner }
+		#default_pedestal_crucifix_description
+		=artifact_pedestal_crucifix_description
+
+		#default_pedestal_cross_name
+		=artifact_pedestal_cross_name
+		=this = { save_scope_as = owner }
+		#default_pedestal_cross_description
+		=artifact_pedestal_cross_description
+
+		#default_pedestal_human_skull_name
+		=artifact_pedestal_human_skull_name
+		=random_killed_character = { save_scope_as = killed }
+		#default_pedestal_human_skull_description
+		=artifact_pedestal_human_skull_description
+		=this = { save_scope_as = owner }
+		=random_killed_character = { save_scope_as = killed }
+		#default_pedestal_human_skull_specific_description
+		=artifact_pedestal_human_skull_specific_description
+		=random_killed_character = { save_scope_as = killed }
+
+		#default_pedestal_skull_of_the_enemy_name
+		=artifact_pedestal_skull_of_the_enemy_name
+		#default_pedestal_skull_of_the_enemy_description
+		=artifact_pedestal_skull_of_the_enemy_description
+		=random_prisoner = { save_scope_as = rival }
+		=this = { save_scope_as = owner }
+
+		#default_pedestal_skull_of_the_apostate_name
+		=artifact_pedestal_skull_of_the_apostate_name
+		#default_pedestal_skull_of_the_apostate_description
+		=artifact_pedestal_skull_of_the_apostate_description
+		=random_prisoner = { save_scope_as = rival }
+		=this = { save_scope_as = owner }
+
+		#default_pedestal_massive_diamond_name
+		=artifact_pedestal_massive_diamond_name
+		=this = { save_scope_as = owner }
+		#default_pedestal_massive_diamond_description
+		=artifact_pedestal_massive_diamond
+
+		#pedestal_cornerstone_name
+		=artifact_pedestal_cornerstone_name
+		#pedestal_cornerstone_description
+		=artifact_pedestal_cornerstone_name_desc
+		=this = { save_scope_as = rival }
+
+		#default_pedestal_reliquary_christian_name
+		=artifact_pedestal_reliquary_christian_name
+		=save_scope_value_as = { name = christian_relic_name value = flag:nail }
+		#default_pedestal_reliquary_christian_description
+		=artifact_pedestal_reliquary_christian_description
+		=save_scope_value_as = { name = christian_relic_name value = flag:nail }
+
+		#default_pedestal_reliquary_islam_name
+		=artifact_pedestal_reliquary_islam_name
+		=save_scope_value_as = { name = islam_relic_name value = flag:hair }
+		#default_pedestal_reliquary_islam_description
+		=artifact_pedestal_reliquary_islam_description
+		=save_scope_value_as = { name = islam_relic_name value = flag:hair }
+
+		#default_pedestal_reliquary_buddhism_name
+		=artifact_pedestal_reliquary_buddhism_name
+		=save_scope_value_as = { name = buddhism_relic_name value = flag:tooth }
+		#default_pedestal_reliquary_buddhism_description
+		=artifact_pedestal_reliquary_buddhism_description
+		=save_scope_value_as = { name = buddhism_relic_name value = flag:tooth }
+
+		#default_pedestal_reliquary_judaism_name
+		=artifact_pedestal_reliquary_judaism_name
+		=save_scope_value_as = { name = judaism_relic_name value = flag:menorah }
+		#default_pedestal_reliquary_judaism_description
+		=artifact_pedestal_reliquary_judaism_description
+		=save_scope_value_as = { name = judaism_relic_name value = flag:menorah }
+
+		#default_pedestal_reliquary_6050_saint_name
+		=artifact_pedestal_reliquary_6050_saint_name
+		=create_character = { template = local_saint_template faith = root.faith culture = root.culture save_scope_as = 6050_holy }
+		#default_pedestal_reliquary_6050_saint_description
+		=artifact_pedestal_reliquary_6050_saint_desc
+		=create_character = { template = local_saint_template faith = root.faith culture = root.culture save_scope_as = 6050_holy }
+
+		#default_pedestal_skull_goblet_name
+		=artifact_pedestal_skull_goblet_name
+		#default_pedestal_skull_goblet_description
+		=artifact_pedestal_skull_goblet_description
+		=random_killed_character = { save_scope_as = bp1_yearly_5601_dead_nemesis }
+
+		#default_skull_goblet_trinket_name
+		=artifact_skull_goblet_trinket_name
+		#default_skull_goblet_trinket_description
+		=artifact_skull_goblet_trinket_description
+		=random_killed_character = { save_scope_as = bp1_yearly_5601_dead_nemesis }
+
+		#default_philosophers_stone_name
+		=artifact_philosophers_stone_name
+		#default_philosophers_stone_description
+		=artifact_philosophers_stone_description
+
+		#default_panacea_name
+		=artifact_panacea_name
+		=this = { save_scope_as = owner }
+		#default_panacea_description
+		=artifact_panacea_description
+
+		#default_elixir_name
+		=artifact_elixir_name
+		=this = { save_scope_as = owner }
+		#default_elixir_description
+		=artifact_elixir_description
+
+
+		#default_reichskrone_name
+		=reichskrone_name
+		#default_reichskrone_description
+		=reichskrone_description
+
+		#default_nikephoros_crown_name
+		=nikephoros_crown_name
+		#default_nikephoros_crown_description
+		=nikephoros_crown_description
+
+		#default_skull_cap_charlemagne_name
+		=skull_cap_charlemagne_name
+		#default_skull_cap_charlemagne_description
+		=skull_cap_charlemagne_description
+
+		#default_papal_tiara_name
+		=papal_tiara_name
+		#default_papal_tiara_description
+		=papal_tiara_description
+
+		#default_essen_crown_name
+		=essen_crown_name
+		#default_essen_crown_description
+		=essen_crown_description
+
+		#default_monomachus_crown_name
+		=monomachus_crown_name
+		#default_monomachus_crown_description
+		=monomachus_crown_description
+
+		#default_edmund_head_name
+		=edmund_head_name
+		#default_edmund_head_description
+		=edmund_head_description
+		
+		#default_dhammapada_name
+		=dhammapada_name
+		#default_dhammapada_description
+		=dhammapada_description
+
+		#default_excalibur_name
+		=excalibur_name
+		#default_excalibur_description
+		=excalibur_description
+
+		#default_vinaya_pitaka_name
+		=vinaya_pitaka_name
+		#default_vinaya_pitaka_description
+		=vinaya_pitaka_description
+
+		#default_sutta_pitaka_name
+		=sutta_pitaka_name
+		#default_sutta_pitaka_description
+		=sutta_pitaka_description
+
+		#default_abhidhamma_pitaka_name
+		=abhidhamma_pitaka_name
+		#default_abhidhamma_pitaka_description
+		=abhidhamma_pitaka_description
+
+		#default_pedestal_koh_i_noor_name
+		=artifact_pedestal_koh_i_noor_name
+		#default_pedestal_koh_i_noor_description
+		=artifact_pedestal_koh_i_noor_description
+
+		#default_jewelled_danda_name
+		=artifact_jewelled_danda_name
+		#default_jewelled_danda_description
+		=artifact_jewelled_danda_description
+
+		#default_aruval_name
+		=artifact_aruval_name
+		#default_aruval_description
+		=artifact_aruval_description
+
+		#default_khanda_name
+		=artifact_khanda_name
+		#default_khanda_description
+		=artifact_khanda_description
+
+		#default_makarakundala_name
+		=artifact_makarakundala_name
+		#default_makarakundala_description
+		=artifact_makarakundala_description
+
+		#default_cintamani_name
+		=artifact_cintamani_name
+		#default_cintamani_hindu_description
+		=artifact_cintamani_hindu_description
+		#default_cintamani_buddhist_description
+		=artifact_cintamani_buddhist_description
+
+		#default_navaratna_name
+		=artifact_navaratna_name
+		#default_navaratna_description
+		=artifact_navaratna_description
+
+		#default_shankha_conch_name
+		=artifact_shankha_conch_name
+		#default_shankha_conch_description
+		=artifact_shankha_conch_description
+
+		#default_pedestal_great_diamond_name
+		=artifact_pedestal_great_diamond_name
+		#default_pedestal_great_diamond_description
+		=artifact_pedestal_great_diamond_description
+
+		#default_al_taj_crown_name
+		=al_taj_crown_name
+		#default_al_taj_crown_description
+		=al_taj_crown_description
+
+		#default_qadib_al_mulk_name
+		=qadib_al_mulk_name
+		#default_qadib_al_mulk_description
+		=qadib_al_mulk_description
+
+		#default_al_sayf_al_khass_name
+		=al_sayf_al_khass_name
+		#default_al_sayf_al_khass_description
+		=al_sayf_al_khass_description
+
+		#default_al_dawat_name
+		=al_dawat_name
+		#default_al_dawat_description
+		=al_dawat_description
+
+		#default_al_hafir_name
+		=al_hafir_name
+		#default_al_hafir_description
+		=al_hafir_description
+
+		#default_wall_banner_thankfulness_name
+		=artifact_wall_banner_thankfulness_name
+		#default_wall_banner_thankfulness_description
+		=artifact_wall_banner_thankfulness_description
+
+		#default_arms_of_alex_name
+		=artifact_arms_of_alex_name
+		#default_arms_of_alex_description
+		=artifact_arms_of_alex_description
+
+		#default_pedestal_al_jabal_name
+		=artifact_pedestal_al_jabal_name
+		#default_pedestal_al_jabal_description
+		=artifact_pedestal_al_jabal_description
+
+		#default_pedestal_al_yatima_name
+		=artifact_pedestal_al_yatima_name
+		#default_pedestal_al_yatima_description
+		=artifact_pedestal_al_yatima_description
+
+		#default_dagger_of_rostam_name
+		=artifact_dagger_of_rostam_name
+		#default_dagger_of_rostam_description
+		=artifact_dagger_of_rostam_description
+
+		#default_spear_of_ascalon_name
+		=artifact_spear_of_ascalon_name
+		#default_spear_of_ascalon_description
+		=artifact_spear_of_ascalon_description
+
+		#default_zomorrodnegar_name
+		=artifact_zomorrodnegar_name
+		#default_zomorrodnegar_description
+		=artifact_zomorrodnegar_description
+
+		#default_muhammads_epistles_name
+		=artifact_muhammads_epistles_name
+		#default_muhammads_epistles_description
+		=artifact_muhammads_epistles_description
+
+		#default_kaves_apron_name
+		=artifact_kaves_apron_name
+		#default_kaves_apron_description
+		=artifact_kaves_apron_description
+
+		#default_joyeuse_name
+		=artifact_joyeuse_name
+		#default_joyeuse_description
+		=artifact_joyeuse_description
+
+		#default_durendal_name
+		=artifact_durendal_name
+		#default_durendal_description
+		=artifact_durendal_description
+
+		#default_curtana_name
+		=artifact_curtana_name
+		#default_curtana_description
+		=artifact_curtana_description
+
+		#default_ring_angelica_name
+		=artifact_ring_angelica_name
+		#default_ring_angelica_description
+		=artifact_ring_angelica_description
+
+		#default_olifant_name
+		=artifact_olifant_name
+		#default_olifant_description
+		=artifact_olifant_description
+
+		#default_colada_name
+		=artifact_colada_name
+		#default_colada_description
+		=artifact_colada_description
+
+		#default_aram_name
+		=artifact_aram_name
+		#default_aram_description
+		=artifact_aram_description
+
+		#default_ikenga_name
+		=artifact_ikenga_name
+		#default_ikenga_description
+		=artifact_ikenga_description
+
+		#default_mmaagha_kamalu_name
+		=artifact_mmaagha_kamalu_name
+		#default_mmaagha_kamalu_description
+		=artifact_mmaagha_kamalu_description
+
+		#default_bronze_head_name
+		=artifact_bronze_head_name
+		#default_bronze_head_description
+		=artifact_bronze_head_description
+
+		#default_crystal_carving_name
+		=artifact_crystal_carving_name
+		#default_crystal_carving_description
+		=artifact_crystal_carving_description
+
+		#default_ibeji_name
+		=artifact_ibeji_name
+		#default_ibeji_description
+		=artifact_ibeji_description
+
+		#default_kantele_name
+		=artifact_kantele_name
+		#default_kantele_description
+		=artifact_kantele_description
+
+		#default_sledovik_name
+		=artifact_sledovik_name
+		#default_sledovik_description
+		=artifact_sledovik_description
+
+		#default_nagelring_name
+		=artifact_nagelring_name
+		#default_nagelring_description
+		=artifact_nagelring_description
+
+		#default_kladenets_name
+		=artifact_kladenets_name
+		#default_kladenets_description
+		=artifact_kladenets_description
+
+		#default_legbiter_name
+		=artifact_legbiter_name
+		#default_legbiter_description
+		=artifact_legbiter_description
+
+		#default_quernbiter_name
+		=artifact_quernbiter_name
+		#default_quernbiter_description
+		=artifact_quernbiter_description
+
+		#default_dragvandil_name
+		=artifact_dragvandil_name
+		#default_dragvandil_description
+		=artifact_dragvandil_description
+
+		#default_szczerbiec_name
+		=artifact_szczerbiec_name
+		#default_szczerbiec_description
+		=artifact_szczerbiec_description
+
+		#default_chinese_caligraphy_name
+		=artifact_chinese_caligraphy_name
+		#default_chinese_caligraphy_description
+		=artifact_chinese_caligraphy_description
+
+		#default_ruyi_name
+		=artifact_ruyi_name
+		#default_ruyi_description
+		=artifact_ruyi_description
+
+		#default_turquoise_throne_name
+		=turquoise_throne_name
+		#default_turquoise_throne_description
+		=turquoise_throne_description
+
+		#default_peacock_throne_name
+		=peacock_throne_name
+		#default_peacock_throne_description
+		=peacock_throne_description
+
+		#default_banner_islam_name
+		=artifact_banner_islam_name
+		#default_banner_islam_description
+		=artifact_banner_islam_description
+
+		#default_spear_of_the_prophet_name
+		=artifact_spear_of_the_prophet_name
+		#default_spear_of_the_prophet_description
+		=artifact_spear_of_the_prophet_description
+
+		#default_mantle_of_the_prophet_islam_name
+		=artifact_mantle_of_the_prophet_islam_name
+		#default_mantle_of_the_prophet_islam_description
+		=artifact_mantle_of_the_prophet_description
+
+		#default_afarganyu_name
+		=afarganyu_name
+		#default_afarganyu_description
+		=artifact_afarganyu_description
+
+		#default_siddhachakra_name
+		=siddhachakra_name
+		#default_siddhachakra_description
+		=artifact_siddhachakra_description
+
+		#default_staff_kakusandha_name
+		=artifact_staff_kakusandha
+		#default_staff_kakusandha_description
+		=artifact_staff_kakusandha_desc
+
+		#default_water_filter_konagamana_name
+		=water_filter_konagamana
+		#default_water_filter_konagamana_description
+		=water_filter_konagamana_desc
+
+		#default_robe_kassapa_name
+		=robe_kassapa
+		#default_robe_kassapa_description
+		=robe_kassapa_desc
+
+		#default_throne_charlemagne_name
+		=artifact_throne_charlemagne_name
+		#default_throne_charlemagne_description
+		=artifact_throne_charlemagne_description
+
+		#default_throne_solomon_name
+		=artifact_throne_solomon_name
+		#default_throne_solomon_description
+		=artifact_throne_solomon_description
+
+		#default_throne_stone_scone_name
+		=artifact_throne_stone_scone_name
+		#default_throne_stone_scone_description
+		=artifact_throne_stone_scone
+
+		#default_wall_banner_kaviani_name
+		=artifact_wall_banner_kaviani_name
+		#default_wall_banner_kaviani_description
+		=artifact_wall_banner_kaviani
+
+		#default_wall_big_edessa_name
+		=artifact_wall_big_edessa_name
+		#default_wall_big_edessa_description
+		=artifact_wall_big_edessa
+
+		#default_wall_cid_sword_name
+		=artifact_wall_cid_sword_name
+		#default_wall_cid_sword_description
+		=artifact_wall_el_cids_sword
+
+		#default_wall_sword_muhammad_name
+		=artifact_wall_sword_muhammad_name
+		#default_wall_sword_muhammad_description
+		=artifact_wall_sword_muhammad
+		=save_scope_value_as = { name = muhammad_sword_name value = flag:aladb }
+
+		#default_wall_sword_attila_name
+		=artifact_wall_sword_attila_name
+		#default_wall_sword_attila_description
+		=artifact_wall_sword_attila_description
+
+		#default_sculpture_ark_of_covenant_name
+		=artifact_sculpture_ark_of_covenant_name
+		#default_sculpture_ark_of_covenant_description
+		=artifact_sculpture_ark_of_covenant_description
+
+		#default_sculpture_armor_babr_name
+		=artifact_sculpture_armor_babr_name
+		#default_sculpture_armor_babr_description
+		=artifact_sculpture_armor_babr
+
+		#default_sculpture_cabinet_pentapyrgion_name
+		=artifact_sculpture_cabinet_pentapyrgion_name
+		#default_sculpture_cabinet_pentapyrgion_description
+		=artifact_sculpture_cabinet_pentapyrgion_description
+
+		#default_pedestal_crown_justinian_name
+		=artifact_pedestal_crown_justinian_name
+		#default_pedestal_crown_justinian_description
+		=artifact_pedestal_crown_justinian
+
+		#default_pedestal_menorah_name
+		=artifact_pedestal_menorah_name
+		#default_pedestal_menorah_description
+		=artifact_pedestal_menorah_description
+
+		#default_pedestal_gold_nugget_name
+		=artifact_pedestal_gold_nugget_name
+		#default_pedestal_gold_nugget_description
+		=artifact_pedestal_gold_nugget
+
+		#default_pedestal_jamshid_name
+		=artifact_pedestal_jamshid_name
+		#default_pedestal_jamshid_description
+		=artifact_pedestal_cup_jamshid
+
+		#default_pedestal_spear_destiny_name
+		=artifact_pedestal_spear_destiny_name
+		#default_pedestal_spear_destiny_description
+		=artifact_pedestal_spear_destiny
+
+		#default_pedestal_david_harp_name
+		=artifact_pedestal_david_harp_name
+		#default_pedestal_david_harp_description
+		=artifact_pedestal_david_harp
+
+		#default_pedestal_branch_name
+		=artifact_pedestal_branch_name
+		=save_scope_value_as = { name = branch_name value = flag:general }
+		#default_pedestal_branch_description
+		=artifact_pedestal_branch_description
+		=save_scope_value_as = { name = branch_name value = flag:general }
+
+		#default_pedestal_crown_iron_name
+		=artifact_pedestal_crown_iron_name
+		#default_pedestal_crown_iron_description
+		=artifact_pedestal_crown_iron
+
+		#default_pedestal_crown_thorns_name
+		=artifact_pedestal_crown_thorns_name
+		#default_pedestal_crown_thorns_description
+		=artifact_pedestal_crown_thorns
+
+		#default_pedestal_veil_veronica_name
+		=artifact_pedestal_veil_veronica_name
+		#default_pedestal_veil_veronica_description
+		=artifact_pedestal_veil_veronica
+
+
+		#default_easteregg_artifact_elisabeth_plush_name
+		=easteregg_artifact_elisabeth_plush
+		#default_easteregg_artifact_elisabeth_plush_description
+		=easteregg_artifact_elisabeth_plush_description
+
+		#default_easteregg_artifact_nicks_weapon_name
+		=easteregg_artifact_nicks_weapon
+		#default_easteregg_artifact_nicks_weapon_description
+		=easteregg_artifact_nicks_weapon_description
+
+		#default_easteregg_artifact_chad_book_name
+		=easteregg_artifact_chad_book
+		#default_easteregg_artifact_chad_book_description
+		=easteregg_artifact_chad_book_description
+
+		#default_easteregg_artifact_chad_dagger_name
+		=easteregg_artifact_chad_dagger
+		#default_easteregg_artifact_chad_dagger_description
+		=easteregg_artifact_chad_dagger_description
+
+		#default_easteregg_artifact_veronica_book_name
+		=easteregg_artifact_veronica_book
+		#default_easteregg_artifact_veronica_book_description
+		=easteregg_artifact_veronica_book_description
+
+		#default_easteregg_artifact_jason_sword_name
+		=easteregg_artifact_jason_sword
+		#default_easteregg_artifact_jason_sword_description
+		=easteregg_artifact_jason_sword_description
+		
+		
+		#default_beaver_book_name
+		=beaver_book_name
+		#default_beaver_book_description
+		=beaver_book_description
+
+		#default_prince_archivist_love_poem_name
+		=prince_archivist_love_poem_name
+		#default_prince_archivist_love_poem_description
+		=prince_archivist_love_poem_description
+
+		#default_witch_queen_love_poem_name
+		=witch_queen_love_poem_name
+		#default_witch_queen_love_poem_description
+		=witch_queen_love_poem_description
+
+		#default_artifact_book_name
+		=artifact_book_title
+		#default_artifact_book_description
+		=artifact_book_description
+		
+		
+		#default_wall_banner_battle_name
+		=artifact_wall_banner_battle_name
+		=this = { save_scope_as = epic_loser }
+		#default_wall_banner_battle_description
+		=artifact_wall_banner_battle_description
+		=capital_province = { save_scope_as = epic_battle_location }
+
+		#default_wall_banner_royal_name
+		=artifact_wall_banner_royal_name
+		=this.primary_title = { save_scope_as = target }
+		#default_wall_banner_royal_description
+		=artifact_wall_banner_royal_description
+		=this.primary_title = { save_scope_as = target }
+
+		#default_wall_banner_house_name
+		=artifact_wall_banner_house_name
+		=this.house = { save_scope_as = target }
+		#default_wall_banner_house_description
+		=artifact_wall_banner_house_description
+		=this.house = { save_scope_as = target }
+
+		#default_wall_banner_dynasty_name
+		=artifact_wall_banner_dynasty_name
+		=this.dynasty = { save_scope_as = target }
+		#default_wall_banner_dynasty_description
+		=artifact_wall_banner_dynasty_description
+		=this.dynasty = { save_scope_as = target }
+
+
+
+#rarity
+=common
+=masterwork
+=famed
+=illustrious
+
+#type_category
+=inventory_artifacts
+=court_artifacts
+
+	#type_detail_inventory_artifacts
+	=helmet
+	=regalia
+	=regalia_simple
+	=armor_mail
+	=armor_plate
+	=armor_scale
+	=armor_lamellar
+	=armor_laminar
+	=armor_brigandine
+	=axe
+	=hammer
+	=mace
+	=spear
+	=sword
+	=dagger
+	=miscellaneous
+	=miscellaneous_when_not_court
+	=brooch
+	=necklace
+
+	#type_detail_court_artifacts
+	=sculpture
+	=chest
+	=box
+	=cabinet
+	=goblet
+	=scientific_apparatus
+	=jug
+	=pedestal
+	=tapestry
+	=animal_skull
+	=animal_hide
+	=animal_hide_big
+	=wall_big
+	=wall_small
+	=wall_shield
+	=wall_shield_special
+	=throne
+	=throne_special
+	=book
+	=elixir
+	=panacea
+	=philosophers_stone
+
+
+#file_000_placeholder
+=placeholder
+
+#file_00_court_artifacts
+=court_artifacts
+
+#file_00_historical
+=historical_artifacts
+
+#file_00_personal_misc
+=personal_artifacts
+
+#file_00_weapon_visuals
+=weapon
+
+#file_03_fp2_artifacts
+=fp2
+
+
+#visual_category
+=court_artifacts
+=historical_artifacts
+=personal_artifacts
+=placeholder
+=weapon
+=fp2
+
+	#visual_detail_court_artifacts
+	=chest
+	=diwan
+	=table
+	=cabinet
+	=throne
+	=tapestry
+	=small_animal_hide
+	=medium_animal_hide
+	=large_animal_hide
+	=small_box
+	=medium_box
+	=goblet
+	=banner
+	=wall_shield
+	=wall_shield_medi
+	=animal_trophy
+	=statue
+	=statue_mena
+	=scroll
+	=pouch
+	=urn
+	=indian_book
+	=book
+	=reliquary
+	=cross
+	=rock
+	=human_skull
+	=diamond
+	=riches
+	=flask
+	=axe_court
+	=hammer_court
+	=spear_court
+	=mace_court
+	=dagger_court
+	=sword_court
+	=regalia_court
+	=crown_court
+	=armor_court
+	=tiny_throne_trinket
+	=brooch_court
+	=ring_court
+	=necklace_court
+
+	#visual_detail_historical_artifacts
+	=sculpture_ark_of_covenant
+	=sculpture_babr_e_bayan
+	=pedestal_alexander_armor
+	=pedestal_justinian
+	=pedestal_cup_jamshid
+	=pedestal_david_harp
+	=pedestal_crown_iron
+	=al_taj_crown
+	=throne_charlemagne
+	=throne_solomon
+	=throne_scone
+	=throne_turquoise
+	=throne_peacock
+	=wall_banner_kaviani
+	=wall_banner_edessa
+	=wall_cid_sword
+	=wall_muhammad_sword
+	=wall_khanda_sword
+	=pedestal_christian_relic
+	=pedestal_islamic_relic
+	=pedestal_buddhism_relic
+	=wall_sword_attila
+	=olifant_court
+	=sculpture_cabinet_pentapyrgion
+	=pedestal_branch_relic_zoroastr
+	=pedestal_branch_relic_germanic
+	=pedestal_branch_relic_slavic
+	=pedestal_branch_relic_boog
+	=pedestal_branch_relic_hinduism
+	=banner_islam
+	=excalibur
+	=buddha_tooth
+	=head
+	=hre_crown
+	=pope_tiara
+	=pope_court
+	=pedestal_longinus
+
+	#visual_detail_personal_artifacts
+	=regalia
+	=crown
+	=armor
+	=brooch
+	=necklace
+	=ring
+	=flowers
+	=pelt
+	=bone
+	=medallion
+	=fabric_roll
+	=pocket_figurine
+	=pocket_pouch
+	=pocket_goblet
+	=pocket_basic_case
+	=pocket_fancy_case
+
+	#visual_detail_placeholder
+	=placeholder
+
+	#visual_detail_weapon
+	=axe
+	=hammer
+	=spear
+	=mace
+	=dagger
+	=sword
+	
+	#visual_detail_fp2
+	=fp2_chalice_dona_urraca
+	=fp2_santiago_aquamanile
+	=fp2_santiago_bells
+	=fp2_armillary_sphere
+	=fp2_2p_chess_board
+	=fp2_4p_chess_board
+	=fp2_votive_crowns
+	=fp2_andalusian_aquamanile
+
+
+#file_00_event_templates
+=event_templates
+
+#file_00_historical_artifacts_templates
+=historical_artifacts_templates
+
+#file_00_type_templates
+=type_templates
+
+#template_category
+=event_templates
+=historical_artifacts_templates
+=type_templates
+
+	#event_templates
+	=arabic_book_template
+	=small_religious_carving_template
+
+	#historical_artifacts_templates
+	=ark_covenant_template
+	=banner_thankfulness
+	=babr_template
+	=justinian_template
+	=papal_tiara_template
+	=al_taj_template
+	=cup_jamshid_template
+	=david_harp_template
+	=crown_iron_template
+	=reichskrone_template
+	=throne_charlemagne_template
+	=throne_solomon_template
+	=throne_scone_template
+	=kaviani_template
+	=edessa_template
+	=tizona_template
+	=muhammad_sword_template
+	=christian_artifact_template
+	=islam_artifact_template
+	=buddhism_artifact_template
+	=attila_template
+	=pentapyrgion_template
+	=branch_zoroastr_template
+	=branch_germanic_template
+	=branch_slavic_template
+	=branch_boog_template
+	=branch_hinduism_template
+	=relic_finno_ugric_template
+	=jainism_artifact_template
+	=branch_general_template
+	=cross_template
+	=christian_relic_template
+	=islam_relic_template
+	=buddhism_relic_template
+	=judaism_relic_template
+	=religious_statue_template
+	=6050_relic_template
+	=saintly_bones_template
+	=general_unique_template
+	=child_toy_template
+	=adults_only_template
+	=fp2_chalice_dona_urraca_template
+	=fp2_santiago_aquamanile_template
+	=fp2_santiago_bells_template
+	=crown_christian_relic_template
+
+	#type_templates
+	=house_banner_template
+	=dynasty_banner_template
+
+
+#modifier_category
+=personal
+=ruling
+=lifestyle
+=scheme
+=opinion
+=military
+=economy
+=prestige_and_piety
+=court
+
+	#modifier_detail_personal
+	=artifact_prowess
+	=artifact_negate_prowess_penalty_add
+	=artifact_intrigue_per_stress_level
+	=artifact_stewardship_per_stress_level
+	=artifact_learning_per_piety_level_modifier$
+	=artifact_learning_per_prestige_level_modifier$
+	=artifact_diplomacy_per_prestige_level_modifier$
+	=artifact_stress_gain
+	=artifact_fertility_gain
+	=artifact_health_gain
+	=artifact_negate_health_penalty_add
+	=artifact_diplomacy
+	=artifact_martial
+	=artifact_stewardship
+	=artifact_intrigue
+	=artifact_learning
+
+	#modifier_detail_ruling
+	=artifact_domain_limit
+	=artifact_vassal_limit
+	=artifact_short_reign_duration_mult
+	=artifact_dread_gain_mult
+	=artifact_dread_baseline_add
+
+	#modifier_detail_lifestyle
+	=artifact_monthly_diplomacy_lifestyle_xp
+	=artifact_monthly_martial_lifestyle_xp
+	=artifact_monthly_stewardship_lifestyle_xp
+	=artifact_monthly_intrigue_lifestyle_xp
+	=artifact_monthly_learning_lifestyle_xp
+	
+	#modifier_detail_scheme
+	=artifact_owned_hostile_scheme_success_chance_add
+	=artifact_owned_scheme_secrecy_add
+	=artifact_hostile_scheme_power_add
+	=artifact_scheme_resistance_add
+	=artifact_owned_personal_scheme_success_chance_add
+	=artifact_personal_scheme_power_add
+	=artifact_seduce_scheme_power_mult
+	=artifact_seduce_scheme_power_add
+	=artifact_courting_scheme_power_add
+	=artifact_learn_language_scheme_power_add
+
+	#modifier_detail_opinion
+	=artifact_monthly_tyranny
+	=artifact_general_opinion
+	=artifact_vassal_opinion
+	=artifact_courtier_and_guest_opinion
+	=artifact_dynasty_opinion
+	=artifact_child_opinion
+	=artifact_spouse_opinion_add
+	=artifact_attraction_opinion
+	=artifact_same_faith_opinion
+	=artifact_different_faith_opinion
+	=artifact_clergy_opinion
+
+	#modifier_detail_military
+	=artifact_knight_limit
+	=artifact_knight_effectiveness
+	=artifact_enemy_hard_casualty_modifier
+	=artifact_hard_casualty_modifier
+	=artifact_pursue_efficiency
+	=artifact_retreat_losses
+	=artifact_raid_speed
+	=artifact_heavy_cavalry_toughness
+	=artifact_heavy_infantry_toughness
+	=artifact_levy_reinforcement_rate
+	=artifact_levy_reinforcement_rate_same_faith
+	=artifact_tolerance_advantage_mod
+	=artifact_controlled_province_advantage
+	=artifact_plains_advantage
+	=artifact_farmlands_advantage
+	=artifact_hills_advantage
+	=artifact_mountains_advantage
+	=artifact_desert_advantage
+	=artifact_desert_mountains_advantage
+	=artifact_oasis_advantage
+	=artifact_jungle_advantage
+	=artifact_forest_advantage
+	=artifact_taiga_advantage
+	=artifact_wetlands_advantage
+	=artifact_steppe_advantage
+	=artifact_floodplains_advantage
+	=artifact_drylands_advantage
+
+	#modifier_detail_economy
+	=artifact_monthly_income
+	=artifact_vassal_tax_contribution_mult
+	=artifact_happy_powerful_vassal_tax_contribution_mult
+	=artifact_domain_tax_mult
+	=artifact_domain_tax_same_faith_mult
+	=artifact_men_at_arms_maintenance
+	=artifact_mercenary_hire_cost_mult
+	=artifact_build_gold_cost
+	=artifact_build_time
+	=artifact_development_growth
+
+	#modifier_detail_prestige_and_piety
+	=artifact_monthly_prestige
+	=artifact_monthly_piety
+	=artifact_monthly_piety_gain_mult
+	=artifact_monthly_prestige_add
+	=artifact_monthly_dynasty_prestige
+
+	#modifier_detail_court
+	=artifact_court_grandeur_baseline_add
+	
+	
+		#value_artifact_prowess
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+
+		#value_artifact_negate_prowess_penalty_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+
+		#value_artifact_intrigue_per_stress_level
+		=1
+		=2
+
+		#value_artifact_stewardship_per_stress_level
+		=1
+		=2
+
+		#value_artifact_learning_per_piety_level_modifier$
+		=1
+
+		#value_artifact_learning_per_prestige_level_modifier$
+		=1
+
+		#value_artifact_diplomacy_per_prestige_level_modifier$
+		=1
+
+		#value_artifact_stress_gain
+		=-0.02
+		=-0.04
+		=-0.08
+		=-0.10
+		
+		#value_artifact_fertility_gain
+		=0.1
+		=0.15
+		=0.2
+		=0.25
+
+		#value_artifact_health_gain
+		=0.10
+		=0.15
+		=0.20
+		=0.25
+
+		#value_artifact_negate_health_penalty_add
+		=0.1
+		=0.2
+		=0.5
+		=1
+
+		#value_artifact_diplomacy
+		=1
+
+		#value_artifact_martial
+		=1
+
+		#value_artifact_stewardship
+		=1
+
+		#value_artifact_intrigue
+		=1
+
+		#value_artifact_learning
+		=1
+
+
+		#value_artifact_domain_limit
+		=1
+
+		#value_artifact_vassal_limit
+		=2
+		=4
+		=6
+		=8
+		=10
+		=12
+		=14
+		=16
+
+		#value_artifact_short_reign_duration_mult
+		=-0.04
+		=-0.08
+		=-0.12
+		=-0.16
+		=-0.20
+		=-0.24
+		=-0.28
+		=-0.32
+
+		#value_artifact_dread_gain_mult
+		=0.1
+		=0.2
+		=0.3
+		=0.4
+		
+		#value_artifact_dread_baseline_add
+		=3
+		=6
+		=9
+		=12
+		
+
+		#value_artifact_monthly_diplomacy_lifestyle_xp
+		=0.05
+		=0.10
+		=0.15
+		=0.20
+
+		#value_artifact_monthly_martial_lifestyle_xp
+		=0.05
+		=0.10
+		=0.15
+		=0.20
+
+		#value_artifact_monthly_stewardship_lifestyle_xp
+		=0.05
+		=0.10
+		=0.15
+		=0.20
+
+		#value_artifact_monthly_intrigue_lifestyle_xp
+		=0.05
+		=0.10
+		=0.15
+		=0.20
+
+		#value_artifact_monthly_learning_lifestyle_xp
+		=0.05
+		=0.10
+		=0.15
+		=0.20
+
+
+		#value_artifact_owned_hostile_scheme_success_chance_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+
+		#value_artifact_owned_scheme_secrecy_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+		
+		#value_artifact_hostile_scheme_power_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+		
+		#value_artifact_scheme_resistance_add
+		=2
+		=4
+		
+		#value_artifact_owned_personal_scheme_success_chance_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+		
+		#value_artifact_personal_scheme_power_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+		
+		#value_artifact_seduce_scheme_power_mult
+		=0.2
+		
+		#value_artifact_seduce_scheme_power_add
+		=4
+		=8
+		=12
+		=16
+		
+		#value_artifact_courting_scheme_power_add
+		=4
+		=8
+		=12
+		=16
+		
+		#value_artifact_learn_language_scheme_power_add
+		=4
+		=8
+		=12
+		=16
+		
+
+		#value_artifact_monthly_tyranny
+		=-0.04
+		=-0.08
+		=-0.12
+		=-0.16
+		=-0.20
+		=-0.24
+		=-0.28
+		=-0.32
+
+		#value_artifact_general_opinion
+		=4
+
+		#value_artifact_vassal_opinion
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_courtier_and_guest_opinion
+		=2
+		=4
+		=6
+		=8
+		=10
+		=12
+		=14
+		=16
+
+		#value_artifact_dynasty_opinion
+		=1
+		=2
+		=3
+		=4
+		=6
+		=8
+		=10
+		=12
+
+		#value_artifact_child_opinion
+		=5
+		=10
+
+		#value_artifact_spouse_opinion_add
+		=5
+		=10
+		=15
+		=20
+
+		#value_artifact_attraction_opinion
+		=4
+		=8
+		=12
+		=16
+
+		#value_artifact_same_faith_opinion
+		=2
+		=4
+		=6
+		=8
+
+		#value_artifact_different_faith_opinion
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+
+		#value_artifact_clergy_opinion
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+		=9
+		=10
+		=11
+		=12
+		=13
+
+
+		#value_artifact_knight_limit
+		=1
+		=2
+
+		#value_artifact_knight_effectiveness
+		=0.02
+		=0.03
+		=0.04
+		=0.05
+		=0.06
+		=0.07
+		=0.08
+		=0.09
+		=0.10
+		=0.12
+		=0.14
+		=0.16
+
+		#value_artifact_enemy_hard_casualty_modifier
+		=0.02
+		=0.03
+		=0.04
+		=0.05
+		=0.06
+		=0.07
+		=0.08
+		=0.09
+		=0.10
+		=0.12
+		=0.14
+		=0.16
+
+		#value_artifact_hard_casualty_modifier
+		=-0.02
+		=-0.03
+		=-0.04
+		=-0.05
+		=-0.06
+		=-0.07
+		=-0.08
+		=-0.09
+		=-0.10
+		=-0.12
+		=-0.14
+		=-0.16
+
+		#value_artifact_pursue_efficiency
+		=0.1
+		=0.15
+		=0.2
+		=0.25
+
+		#value_artifact_retreat_losses
+		=-0.1
+		=-0.15
+		=-0.2
+		=-0.25
+
+		#value_artifact_raid_speed
+		=0.05
+		=0.10
+		=0.15
+		=0.20
+		=0.25
+		=0.30
+		=0.35
+		=0.40
+		=0.45
+		=0.50
+		=0.55
+		=0.60
+
+		#value_artifact_heavy_cavalry_toughness
+		=0.02
+		=0.04
+		=Invalid 0.06
+		=Invalid 0.08
+
+		#value_artifact_heavy_infantry_toughness
+		=Invalid 0.02
+		=0.04
+		=0.06
+		=Invalid 0.08
+
+		#value_artifact_levy_reinforcement_rate
+		=0.05
+		=0.1
+
+		#value_artifact_levy_reinforcement_rate_same_faith
+		=0.04
+		=0.08
+		=0.12
+		=0.16
+		=0.20
+		=0.24
+		=0.28
+		=0.32
+		=0.36
+		=0.40
+		=0.45
+		=0.50v
+
+		#value_artifact_tolerance_advantage_mod
+		=2
+		=4
+		=6
+		=8
+
+		#value_artifact_controlled_province_advantage
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+		=7
+		=8
+
+		#value_artifact_plains_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_farmlands_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_hills_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_mountains_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_desert_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_desert_mountains_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_oasis_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_jungle_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_forest_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_taiga_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_wetlands_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_steppe_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_floodplains_advantage
+		=1
+		=2
+		=3
+		=4
+
+		#value_artifact_drylands_advantage
+		=1
+		=2
+		=3
+		=4
+
+
+		#value_artifact_monthly_income
+		=0.01
+		=0.02
+		=0.03
+		=0.04
+
+		#value_artifact_vassal_tax_contribution_mult
+		=0.01
+		=0.02
+		=0.03
+		=0.04
+
+		#value_artifact_happy_powerful_vassal_tax_contribution_mult
+		=0.01
+		=0.02
+		=0.03
+		=0.04
+		=0.05
+		=0.06
+		=0.07
+		=0.08
+
+		#value_artifact_domain_tax_mult
+		=0.01
+		=0.02
+		=0.03
+		=0.04
+
+		#value_artifact_domain_tax_same_faith_mult
+		=0.01
+		=0.02
+		=0.03
+		=0.04
+
+		#value_artifact_men_at_arms_maintenance
+		=-0.01
+		=-0.02
+		=-0.03
+		=-0.04
+		=-0.05
+		=-0.06
+		=-0.07
+		=-0.08
+
+		#value_artifact_mercenary_hire_cost_mult
+		=-0.01
+		=-0.02
+		=-0.03
+		=-0.04
+
+		#value_artifact_build_gold_cost
+		=-0.01
+		=-0.02
+		=-0.03
+		=-0.04
+		=-0.05
+		=-0.06
+		=-0.07
+		=-0.08
+
+		#value_artifact_build_time
+		=-0.1
+		=-0.15
+		=-0.2
+		=-0.25
+
+		#value_artifact_development_growth
+		=0.02
+		=0.04
+		=0.06
+		=0.08
+		=0.10
+		=0.12
+		=0.14
+		=0.16
+		=0.18
+		=0.20
+		=0.22
+		=0.24
+
+
+		#value_artifact_monthly_prestige
+		=0.05
+		=0.1
+		=0.15
+		=0.2
+		=0.3
+		=0.4
+		=0.5
+		=0.6 
+
+		#value_artifact_monthly_piety
+		=0.1
+		=0.2
+		=0.3
+		=0.4
+		=0.5
+		=0.6
+		=0.7
+		=0.8
+
+		#value_artifact_monthly_piety_gain_mult
+		=0.02
+		=0.04
+		=0.06
+		=0.08
+		=0.10
+		=0.12
+		=0.14
+		=0.16
+		=0.18
+		=0.20
+		=0.22
+		=0.24
+
+		#value_artifact_monthly_prestige_add
+		=0.02
+		=0.04
+		=0.06
+		=0.08
+		=0.10
+		=0.12
+		=0.14
+		=0.16
+
+		#value_artifact_monthly_dynasty_prestige
+		=0.02
+		=0.03
+		=0.04
+		=0.05
+
+
+		#value_artifact_court_grandeur_baseline_add
+		=1
+		=2
+		=3
+		=4
+		=5
+		=6
+
+
+#improvement_category
+=cursed_artifact
+=killer_weapon
+=glorious_armor
+=official_crown
+=the_eye_of_the_expert
+=blessed_artifact
+=desecrated_relic
+=dueling_weapon
+
+	#cursed_artifact
+	=cursed_artifact
+
+	#killer_weapon
+	=killer_weapon
+
+	#glorious_armor
+	=glorious_armor
+
+	#official_crown
+	=imperial_crown
+	=crown_of_the_people
+
+	#the_eye_of_the_expert
+	=the_eye_of_the_expert_raid_speed_2_modifier
+	=the_eye_of_the_expert_heavy_cavalry_toughness_2_modifier
+	=the_eye_of_the_expert_heavy_infantry_toughness_2_modifier
+	=the_eye_of_the_expert_knight_effectiveness_2_modifier
+	=the_eye_of_the_expert_prowess_4_modifier
+	=the_eye_of_the_expert_heavy_infantry_toughness_3_modifier
+
+	#blessed_artifact
+	=blessed_artifact
+
+	#desecrated_relic
+	=desecrated_relic
+
+	#dueling_weapon
+	=dueling_weapon
+
+		#value_cursed_artifact
+		=1
+		=2
+		
+		#value_killer_weapon
+		=1
+		=2
+		=3
+		=4
+		
+		#value_glorious_armor
+		=1
+		=2
+		=3
+		=4
+		
+		#value_imperial_crown
+		=1
+		
+		#value_crown_of_the_people
+		=1
+		
+		#value_the_eye_of_the_expert_raid_speed_2_modifier
+		=1
+		
+		#value_the_eye_of_the_expert_heavy_cavalry_toughness_2_modifier
+		=1
+		
+		#value_the_eye_of_the_expert_heavy_infantry_toughness_2_modifier
+		=1
+		
+		#value_the_eye_of_the_expert_knight_effectiveness_2_modifier
+		=1
+		
+		#value_the_eye_of_the_expert_prowess_4_modifier
+		=1
+		
+		#value_the_eye_of_the_expert_heavy_infantry_toughness_3_modifier
+		=1
+		
+		#value_blessed_artifact
+		=1
+		
+		#value_desecrated_relic
+		=1
+		
+		#value_dueling_weapon
+		=1
+		=2
+		=3
+		=4
+		
+		
+		
+		
+		
+		
+		
+		
+		
+#icon_sculpture_ark_of_covenant
+=artifact_reliquary.dds
+
+#icon_sculpture_babr_e_bayan
+=artifact_armor.dds
+
+#icon_pedestal_alexander_armor
+=artifact_armor.dds
+
+#icon_pedestal_justinian
+=artefact_icons_unique_artifact_byzantine_imperial_crown.dds
+
+#icon_pedestal_cup_jamshid
+=artifact_goblet.dds
+
+#icon_pedestal_david_harp
+=artifact_reliquary.dds
+
+#icon_pedestal_crown_iron
+=artifact_crown.dds
+
+#icon_al_taj_crown
+=artifact_crown.dds
+
+#icon_throne_charlemagne
+=artifact_throneroom.dds
+
+#icon_throne_solomon
+=artifact_unique_throne_of_solomon.dds
+
+#icon_throne_scone
+=artifact_throneroom.dds
+
+#icon_throne_turquoise
+=artifact_throneroom.dds
+
+#icon_throne_peacock
+=artifact_throneroom.dds
+
+#icon_wall_banner_kaviani
+=artifact_banner.dds
+
+#icon_wall_banner_edessa
+=artifact_banner.dds
+
+#icon_wall_cid_sword
+=artifact_sword.dds
+
+#icon_wall_muhammad_sword
+=artifact_sword.dds
+
+#icon_wall_khanda_sword
+=artifact_sword.dds
+
+#icon_pedestal_christian_relic
+=artifact_reliquary.dds
+
+#icon_pedestal_islamic_relic
+=artifact_reliquary.dds
+
+#icon_pedestal_buddhism_relic
+=artefact_icons_unique_artifact_eastern_reliquaries.dds
+
+#icon_wall_sword_attila
+=artifact_sword.dds
+
+#icon_olifant_court
+=artifact_regalia.dds
+
+#icon_sculpture_cabinet_pentapyrgion
+=artifact_cabinet.dds
+
+#icon_pedestal_branch_relic_zoroastr
+=artefact_icons_unique_artifact_holy_branch.dds
+
+#icon_pedestal_branch_relic_germanic
+=artefact_icons_unique_artifact_holy_branch.dds
+
+#icon_pedestal_branch_relic_slavic
+=artefact_icons_unique_artifact_holy_branch.dds
+
+#icon_pedestal_branch_relic_boog
+=artefact_icons_unique_artifact_holy_branch.dds
+
+#icon_pedestal_branch_relic_hinduism
+=artefact_icons_unique_artifact_holy_branch.dds
+
+#icon_banner_islam
+=artifact_banner.dds
+
+#icon_excalibur
+=artefact_icons_unique_artifact_excalibur.dds
+
+#icon_buddha_tooth
+=artefact_icons_unique_artifact_buddhas_tooth.dds
+
+#icon_head
+=artefact_icons_unique_artifact_head_st_edmund.dds
+
+#icon_hre_crown
+=artefact_icons_unique_artifact_reichskrone.dds
+
+#icon_pope_tiara
+=artefact_icons_unique_artifact_papal_tiara.dds
+
+#icon_pope_court
+=artefact_icons_unique_artifact_papal_tiara.dds
+
+#icon_pedestal_longinus
+=artifact_unique_lance_of_longius.dds
+
+
+#icon_regalia
+=artifact_regalia.dds
+
+#icon_crown
+=artifact_crown.dds
+
+#icon_armor
+=artifact_armor.dds
+
+#icon_brooch
+=artifact_brooch.dds
+
+#icon_necklace
+=artifact_necklace.dds
+
+#icon_ring
+=artifact_ring.dds
+
+#icon_flowers
+=artifact_pressed_flowers.dds
+
+#icon_pelt
+=artifact_pelt.dds
+
+#icon_bone
+=artifact_bone.dds
+
+#icon_medallion
+=artifact_medallion.dds
+
+#icon_fabric_roll
+=artifact_fabric_roll.dds
+
+#icon_pocket_figurine
+=artifact_statue.dds
+
+#icon_pocket_pouch
+=artifact_pouch.dds
+
+#icon_pocket_goblet
+=artifact_goblet.dds
+
+#icon_pocket_basic_case
+=artifact_small_box.dds
+
+#icon_pocket_fancy_case
+=artifact_medium_box.dds
+
+
+#icon_axe
+=artifact_african_axe.dds
+=artifact_steppe_axe.dds
+=artifact_axe.dds
+
+#icon_hammer
+=artifact_hammer.dds
+
+#icon_spear
+=artifact_spear.dds
+
+#icon_mace
+=artifact_byzantine_mace.dds
+=artifact_steppe_mace.dds
+=artifact_mace.dds
+
+#icon_dagger
+=artifact_dagger.dds
+
+#icon_sword
+=artifact_african_sword.dds
+=artifact_northern_sword.dds
+=artifact_sword.dds
+
+
+#icon_placeholder
+=artifact_sword.dds
+
+
+#icon_chest
+=artifact_chest.dds
+
+#icon_diwan
+=artifact_indian_divan.dds
+
+#icon_table
+=artifact_mena_table.dds
+
+#icon_cabinet
+=artifact_cabinet.dds
+
+#icon_throne
+=artifact_throneroom.dds
+
+#icon_tapestry
+=artifact_tapestry.dds
+
+#icon_small_animal_hide
+=artifact_animal_hide.dds
+
+#icon_medium_animal_hide
+=artifact_animal_hide.dds
+
+#icon_large_animal_hide
+=artifact_animal_hide.dds
+
+#icon_small_box
+=artifact_small_box.dds
+
+#icon_medium_box
+=artifact_medium_box.dds
+
+#icon_goblet
+=artifact_goblet.dds
+
+#icon_banner
+=artifact_banner.dds
+
+#icon_wall_shield
+=artifact_wall_shield.dds
+
+#icon_wall_shield_medi
+=artifact_wall_shield.dds
+
+#icon_animal_trophy
+=artifact_animal_trophy.dds
+
+#icon_statue
+=artifact_statue.dds
+
+#icon_statue_mena
+=artifact_statue.dds
+
+#icon_scroll
+=artifact_scroll.dds
+
+#icon_pouch
+=artifact_pouch.dds
+
+#icon_urn
+=artifact_urn.dds
+
+#icon_indian_book
+=artifact_leaf_book.dds
+
+#icon_book
+=artifact_book.dds
+
+#icon_reliquary
+=artifact_reliquary.dds
+
+#icon_cross
+=artifact_reliquary.dds
+
+#icon_rock
+=artifact_rock.dds
+
+#icon_human_skull
+=artifact_bone.dds
+
+#icon_diamond
+=artifact_gemstone.dds
+
+#icon_riches
+=artifact_small_box.dds
+
+#icon_flask
+=artifact_flask.dds
+
+#icon_axe_court
+=artifact_african_axe.dds
+=artifact_steppe_axe.dds
+=artifact_axe.dds
+
+#icon_hammer_court
+=artifact_hammer.dds
+
+#icon_spear_court
+=artifact_spear.dds
+
+#icon_mace_court
+=artifact_byzantine_mace.dds
+=artifact_steppe_mace.dds
+=artifact_mace.dds
+
+#icon_dagger_court
+=artifact_dagger.dds
+
+#icon_sword_court
+=artifact_african_sword.dds
+=artifact_northern_sword.dds
+=artifact_sword.dds
+
+#icon_regalia_court
+=artifact_regalia.dds
+
+#icon_crown_court
+=artifact_crown.dds
+
+#icon_armor_court
+=artifact_armor.dds
+
+#icon_tiny_throne_trinket
+=artifact_throneroom.dds
+
+#icon_brooch_court
+=artifact_brooch.dds
+
+#icon_ring_court
+=artifact_ring.dds
+
+#icon_necklace_court
+=artifact_necklace.dds
+
+
+#icon_fp2_chalice_dona_urraca
+=artifact_icons_unique_chalice_dona_urraca.dds
+
+#icon_fp2_santiago_aquamanile
+=artifact_icons_unique_aquamaniles.dds
+
+#icon_fp2_santiago_bells
+=artifact_icons_unique_bell_of_santiago.dds
+
+#icon_fp2_armillary_sphere
+=artifact_icons_unique_armillary.dds
+
+#icon_fp2_2p_chess_board
+=artifact_icons_2way_chessboard.dds
+
+#icon_fp2_4p_chess_board
+=artifact_icons_4way_chessboard.dds
+
+#icon_fp2_votive_crowns
+=artifact_icons_votive_crown.dds
+
+#icon_fp2_andalusian_aquamanile
+=artifact_icons_aquamaniles.dds

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Artifact_Maker</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="config.txt" />
+    <None Remove="data.txt" />
+    <None Remove="Localisation\en-US.txt" />
+    <None Remove="Localisation\en.txt" />
+    <None Remove="Localisation\zh-CN.txt" />
+    <None Remove="Localisation\zh.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Info\Config.txt" />
+    <EmbeddedResource Include="Info\Data.txt" />
+    <EmbeddedResource Include="Localisation\en-US.txt" />
+    <EmbeddedResource Include="Localisation\en.txt" />
+    <EmbeddedResource Include="Localisation\zh-CN.txt" />
+    <EmbeddedResource Include="Localisation\zh.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ookii.Dialogs.Wpf" Version="5.0.1" />
+    <PackageReference Include="Pfim" Version="0.10.3" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Include="App.xaml" />
+  </ItemGroup>
+
+</Project>

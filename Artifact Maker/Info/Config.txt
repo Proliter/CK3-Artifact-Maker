@@ -1,0 +1,12 @@
+version=2.3
+
+default_language=en-US
+use_advanced=false
+
+historical_artifact_template=general_unique_template
+
+game_document_path=%userProfile%\Documents\Paradox Interactive\Crusader Kings III\
+game_run_file_name=maker.txt
+game_max_command_length=260
+
+artifact_icon_width=240

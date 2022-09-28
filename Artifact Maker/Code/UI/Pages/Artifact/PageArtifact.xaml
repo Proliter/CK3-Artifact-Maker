@@ -1,0 +1,431 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ArtifactMaker"
+      xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="ArtifactMaker.PageArtifact"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="900"
+      Title="PageArtifact">
+
+    <Grid x:Name="gridPageArtifact">
+        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="4*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Margin="5" Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="190"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+
+
+                        <Label Grid.Row="0" Grid.Column="0" x:Name="labelName" VerticalContentAlignment="Center"/>
+                        <Grid Grid.Row="0" Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="7*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ComboBox Margin="0,0,5,0" Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxDefaultNameCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                            <TextBox Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" FontSize="16" x:Name="textboxName"/>
+                            <ComboBox Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" Visibility="Hidden" x:Name="comboboxDefaultNameDetail" FontSize="14"/>
+                        </Grid>
+
+                        <Label Grid.Row="1" Grid.Column="0" x:Name="labelRarity" VerticalContentAlignment="Center"/>
+                        <Grid Grid.Row="1"  Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="7*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ComboBox Margin="0,0,5,0" Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxRarity" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+
+                            <Grid Grid.Column="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0" x:Name="gridWealth">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" x:Name="labelWealth" VerticalContentAlignment="Center"/>
+                                    <TextBox Grid.Column="1" VerticalAlignment="Center" FontSize="16" x:Name="textboxWealth" PreviewTextInput="textboxInputLimitNumber" InputMethod.IsInputMethodEnabled="False"/>
+                                </Grid>
+
+                                <Grid Grid.Column="2" x:Name="gridQuality">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" x:Name="labelQuality" VerticalContentAlignment="Center"/>
+                                    <TextBox Grid.Column="1" VerticalAlignment="Center" FontSize="16" x:Name="textboxQuality" PreviewTextInput="textboxInputLimitNumber" InputMethod.IsInputMethodEnabled="False"/>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+
+                        <Label Grid.Row="2" Grid.Column="0" VerticalContentAlignment="Center" x:Name="labelType"/>
+                        <Grid Grid.Row="2" Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="7*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ComboBox Margin="0,0,5,0" Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxTypeCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                            <ComboBox Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxTypeDetail" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                        </Grid>
+
+                        <Label Grid.Row="3" Grid.Column="0" VerticalContentAlignment="Center" x:Name="labelVisual"/>
+                        <Grid Grid.Row="3" Grid.Column="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="7*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ComboBox Margin="0,0,5,0" Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxVisualCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                            <ComboBox Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxVisualDetail" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                        </Grid>
+
+                        <Label Height="30" Grid.Row="4" Grid.Column="0" VerticalContentAlignment="Center" x:Name="labelTemplate"/>
+                        <Grid Height="30" Grid.Row="4" Grid.Column="1" x:Name="gridTemplate">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="4*"/>
+                                <ColumnDefinition Width="5.5*"/>
+                                <ColumnDefinition Width="1.5*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ComboBox Margin="0,0,5,0" Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxTemplateCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                            <ComboBox Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxTemplateDetail" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                            <Button Margin="5,0,0,0" Grid.Column="2" Height="{Binding ActualHeight,ElementName=comboboxTemplateDetail}" VerticalAlignment="Center" x:Name="buttonTemplateClear" Click="buttonTemplateClearClick"/>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="90"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="90"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Column="0" Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+
+                            <Label Grid.Row="0" Grid.Column="0" VerticalContentAlignment="Center" x:Name="labelMaxDurability"/>
+                            <CheckBox Margin="0,0,5,0" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" x:Name="checkboxDefaultDurability" Checked="checkboxDefaultDurabilityCheckedChange" Unchecked="checkboxDefaultDurabilityCheckedChange" IsChecked="True"/>
+                            <TextBox Margin="0,0,5,0" Grid.Column="1" Grid.Row="0" VerticalAlignment="Center" FontSize="15" x:Name="textboxMaxDurability" PreviewTextInput="textboxInputLimitNumber" InputMethod.IsInputMethodEnabled="False" IsEnabled="False"/>
+
+                            <CheckBox Margin="5,0,0,0" Grid.Row="0" Grid.Column="2" VerticalAlignment="Center" x:Name="checkboxInfiniteDurability"/>
+                            <CheckBox Margin="5,0,0,0" Grid.Row="1" Grid.Column="2" VerticalAlignment="Center" x:Name="checkboxHistoricalArtifact" Checked="checkboxHistoricalArtifactCheckedChange" Unchecked="checkboxHistoricalArtifactCheckedChange"/>
+
+                            <Label Grid.Row="2" Grid.Column="0" x:Name="labelDescription" VerticalContentAlignment="Center"  FontSize="14"/>
+                            <ComboBox Margin="0,0,5,0" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxDefaultDescriptionCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                            <ComboBox Margin="5,0,0,0" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" Visibility="Hidden" x:Name="comboboxDefaultDescriptionDetail" FontSize="14"/>
+                        </Grid>
+                        <TextBox Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="textboxDescription" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" FontSize="13"/>
+
+                        <ContentControl Grid.Column="1" Grid.Row="0" x:Name="contentcontrolIcon"/>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Row="1">
+                    <Rectangle Height="2" Fill="Gray"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="33"/>
+                        <RowDefinition Height="32"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBox Margin="5" Grid.Column="0" x:Name="textboxOutput" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" IsReadOnly="True" TextChanged="textboxOutputTextChanged"/>
+
+                        <Button Margin="0,5,5,5" Width="25" Grid.Column="1" x:Name="buttonCopyOutput" Click="buttonCopyOutputClick"/>
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Margin="5,5,5,0" Grid.Column="0" x:Name="buttonOpenRunFolder" Click="buttonOpenRunFolderClick"/>
+                        <Button Margin="5,5,5,0" Grid.Column="1" x:Name="buttonCopyRunCommand" Click="buttonCopyRunCommandClick"/>
+                        <Button Margin="5,5,5,0" Grid.Column="2" x:Name="buttonSaveToRunFolder" Click="buttonSaveToRunFolderClick"/>
+                    </Grid>
+
+                    <Label Margin="5,0,5,5" Grid.Row="2" x:Name="labelNotice" VerticalContentAlignment="Center" Visibility="Hidden"/>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Column="1">
+                <Rectangle Fill="Gray" Width="2"/>
+            </Grid>
+
+            <Grid Margin="0" Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="65"/>
+                </Grid.RowDefinitions>
+
+                <Grid Margin="5" Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Height="81">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" x:Name="labelModifier" VerticalContentAlignment="Center" FontSize="14"/>
+
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" x:Name="labelModifierCategory" VerticalContentAlignment="Center"/>
+                            <Grid Grid.Column="1" Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="16*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <ComboBox Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxModifierCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+
+                                <Grid Grid.Column="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" x:Name="labelModifierValue" VerticalContentAlignment="Center"/>
+                                    <ComboBox Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxModifierValue" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                                </Grid>
+                            </Grid>
+
+                            <Label Grid.Column="0" Grid.Row="1" x:Name="labelModifierDetail" VerticalContentAlignment="Center"/>
+                            <Grid Grid.Column="1" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <ComboBox Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxModifierDetail" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                                <Button Margin="5,0,0,0" Grid.Column="1" Width="50" Height="{Binding ActualHeight, ElementName=comboboxModifierDetail}" x:Name="buttonModifierAdd" Click="buttonModifierAddClick" FontSize="14"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Margin="0,2,0,0" Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="13*"/>
+                                    <ColumnDefinition Width="8*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0" x:Name="gridListModifier_0"/>
+                                <Grid Grid.Column="1" x:Name="gridListModifier_1"/>
+                            </Grid>
+
+                            <ListView x:Name="listviewModifier" SelectionMode="Extended" SelectionChanged="listviewModifierSelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn x:Name="listviewModifierColumn_0" Width="{Binding ActualWidth, ElementName=gridListModifier_0}" DisplayMemberBinding="{Binding key}"/>
+                                        <GridViewColumn x:Name="listviewModifierColumn_1" Width="{Binding ActualWidth, ElementName=gridListModifier_1}" DisplayMemberBinding="{Binding num}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" x:Name="labelModifierSelectedNotice" VerticalContentAlignment="Center"/>
+                            <Button Grid.Column="1" Margin="0,2,5,2" Width="50" x:Name="buttonModifierSelectedDelete" Click="buttonModifierSelectedDeleteClick" VerticalAlignment="Stretch"/>
+                            <Button Grid.Column="2" Margin="5,2,0,2" Width="50" x:Name="buttonModifierClear" Click="buttonModifierClearClick"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <Grid Margin="5" Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" Height="81">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="2*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Grid.Row="0" x:Name="labelImprovement" VerticalContentAlignment="Center" FontSize="14"/>
+
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" Grid.Row="0" x:Name="labelImprovementCategory" VerticalContentAlignment="Center"/>
+                            <Grid Grid.Column="1" Grid.Row="0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                    <ColumnDefinition Width="16*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <ComboBox Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxImprovementCategory" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+
+                                <Grid Grid.Column="2">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label Grid.Column="0" x:Name="labelImprovementValue" VerticalContentAlignment="Center"/>
+                                    <ComboBox Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxImprovementValue" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                                </Grid>
+                            </Grid>
+
+                            <Label Grid.Column="0" Grid.Row="1" x:Name="labelImprovementDetail" VerticalContentAlignment="Center"/>
+                            <Grid Grid.Column="1" Grid.Row="1">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <ComboBox Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxImprovementDetail" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
+                                <Button Margin="5,0,0,0" Grid.Column="1" Width="50" Height="{Binding ActualHeight, ElementName=comboboxImprovementDetail}" x:Name="buttonImprovementAdd" Click="buttonImprovementAddClick" FontSize="14"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+
+                    <Grid Margin="0,2,0,0" Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="25"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="13*"/>
+                                    <ColumnDefinition Width="8*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Grid Grid.Column="0" x:Name="gridListImprovement_0"/>
+                                <Grid Grid.Column="1" x:Name="gridListImprovement_1"/>
+                            </Grid>
+
+                            <ListView x:Name="listviewImprovement" SelectionMode="Extended" SelectionChanged="listviewImprovementSelectionChanged" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                <ListView.View>
+                                    <GridView>
+                                        <GridViewColumn x:Name="listviewImprovementColumn_0" Width="{Binding ActualWidth, ElementName=gridListImprovement_0}" DisplayMemberBinding="{Binding key}"/>
+                                        <GridViewColumn x:Name="listviewImprovementColumn_1" Width="{Binding ActualWidth, ElementName=gridListImprovement_1}" DisplayMemberBinding="{Binding num}"/>
+                                    </GridView>
+                                </ListView.View>
+                            </ListView>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" x:Name="labelImprovementSelectedNotice" VerticalContentAlignment="Center"/>
+                            <Button Grid.Column="1" Width="50" x:Name="buttonImprovementSelectedDelete" Height="21" Click="buttonImprovementSelectedDeleteClick"/>
+                            <Button Grid.Column="2" Margin="5,2,0,2" Width="50" x:Name="buttonImprovementClear" Click="buttonImprovementClearClick"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <Grid Margin="5" Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Margin="0,0,5,0" x:Name="buttonGenerate" Grid.Column="0" Click="buttonGenerateClick" FontSize="20"/>
+                    <Button Margin="5,0,0,0" x:Name="buttonClear" Grid.Column="1" Click="buttonClearClick" FontSize="20"/>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

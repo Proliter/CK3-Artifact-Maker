@@ -1,0 +1,7 @@
+#VS Files
+.vs/*
+Artifact Maker/bin/*
+Artifact Maker/obj/*
+Artifact Maker/obj/*
+Artifact Maker/Properties/*
+Artifact Maker/Artifact Maker.csproj.user
