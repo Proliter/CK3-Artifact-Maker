@@ -13,6 +13,7 @@ namespace ArtifactMaker
         public SortedDictionary<string, string> variables = new SortedDictionary<string, string>();//name , value
         public string type = "";
         public string visuals = "";
+        public string? visualSource = null;
         public string rarity = "";
         public int? maxDurability = null;
         public bool decaying = true;
@@ -47,6 +48,12 @@ namespace ArtifactMaker
             info.Add("    description = " + description);
             info.Add("    type = " + type);
             info.Add("    visuals = " + visuals);
+            //***
+            if(visualSource != null)
+            {
+                info.Add("    visuals_source = " + visualSource);
+            }
+            //***
             info.Add("    rarity = " + rarity);
             //***
             if (wealth != null)

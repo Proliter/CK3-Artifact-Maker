@@ -10,6 +10,7 @@ Label_Wealth=Wealth
 Label_Quality=Quality
 Label_Type=Type
 Label_Visual=Visual
+Label_VisualSource=Visual Source
 Label_Template=Template
 Label_MaxDurability=Max Durability
 Label_Description=Description
@@ -38,6 +39,7 @@ Button_ImprovementClear=Clear
 Button_Generate=Generate
 Button_Clear=Reset
 Button_TemplateClear=Clear
+Button_VisualSourceClear=Clear
 
 CheckBox_DefaultDurability=Use Default Durability
 CheckBox_HistoricalArtifact=Historical Artifact
@@ -112,7 +114,7 @@ default_weapon_and_armor=Equipments
 default_inventory_artifacts=Inventory Artifacts
 default_court_artifacts=Court Artifacts
 default_historical_artifacts=Historical Artifacts
-default_easteregg=Easter eggs
+default_easteregg=Easter Eggs
 default_book=Books
 default_banner=Banners
 
@@ -506,6 +508,14 @@ visual_fp2_2p_chess_board=Lucky Chess Board
 visual_fp2_4p_chess_board=Four-Player Chess Board
 visual_fp2_votive_crowns=Visigothic Votive Crown
 visual_fp2_andalusian_aquamanile=Ritual Aquamanile
+
+
+visual_source_house=House
+visual_source_dynasty=Dynasty
+visual_source_primary_title=Primary Title
+visual_source_title_d_shiite=Title: Shia Caliphate
+visual_source_title_d_sunni=Title: Sunni Caliphate
+visual_source_dynasty_jamshid=Dynasty: Jamshid
 
 
 event_templates=Event Template

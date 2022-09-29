@@ -208,6 +208,11 @@ namespace ArtifactMaker
                             target.Add(bitmapSource);
                         }
 
+                        //if imageCache is too big, clear it
+                        if (imageCache.Count > 30)
+                        {
+                            imageCache.Clear();
+                        }
                         imageCache.Add(item, target);
                     }
                     finally

@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:ArtifactMaker"
       xmlns:System="clr-namespace:System;assembly=System.Runtime" x:Class="ArtifactMaker.PageArtifact"
       mc:Ignorable="d" 
-      d:DesignHeight="650" d:DesignWidth="900"
+      d:DesignHeight="650" d:DesignWidth="950"
       Title="PageArtifact">
 
     <Grid x:Name="gridPageArtifact">
@@ -40,6 +40,7 @@
                             <RowDefinition Height="30"/>
                             <RowDefinition Height="30"/>
                             <RowDefinition Height="30"/>
+                            <RowDefinition Height="auto"/>
                             <RowDefinition Height="auto"/>
                         </Grid.RowDefinitions>
 
@@ -116,8 +117,26 @@
                             <ComboBox Margin="5,0,0,0" Grid.Column="1" VerticalAlignment="Center" x:Name="comboboxVisualDetail" SelectionChanged="comboboxArtifactSelectionChanged" FontSize="14"/>
                         </Grid>
 
-                        <Label Height="30" Grid.Row="4" Grid.Column="0" VerticalContentAlignment="Center" x:Name="labelTemplate"/>
-                        <Grid Height="30" Grid.Row="4" Grid.Column="1" x:Name="gridTemplate">
+                        <Grid Height="30" Grid.Row="4" Grid.Column="1" x:Name="gridVisualSource" Visibility="Collapsed">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label Margin="0,0,5,0" Grid.Column="0" VerticalContentAlignment="Center" HorizontalAlignment="Right" x:Name="labelVisualSource"/>
+                            <Grid Grid.Column="1" Width="{Binding ActualWidth,ElementName=comboboxTypeDetail}">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="5.5*"/>
+                                    <ColumnDefinition Width="1.5*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <ComboBox Margin="0,0,0,0" Grid.Column="0" VerticalAlignment="Center" x:Name="comboboxVisualSource" FontSize="14"/>
+                                <Button Margin="5,0,0,0" Grid.Column="1" Height="{Binding ActualHeight,ElementName=comboboxVisualSource}" VerticalAlignment="Center" x:Name="buttonVisualSourceClear" Click="buttonVisualSourceClick"/>
+                            </Grid>
+                        </Grid>
+                        
+                        <Label Height="30" Grid.Row="5" Grid.Column="0" VerticalContentAlignment="Center" x:Name="labelTemplate"/>
+                        <Grid Height="30" Grid.Row="5" Grid.Column="1" x:Name="gridTemplate">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="4*"/>
                                 <ColumnDefinition Width="5.5*"/>

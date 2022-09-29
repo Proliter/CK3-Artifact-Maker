@@ -10,6 +10,7 @@ Label_Wealth=价值
 Label_Quality=质量
 Label_Type=类型
 Label_Visual=视图
+Label_VisualSource=视图资源
 Label_Template=模板
 Label_MaxDurability=最大耐久
 Label_Description=描述
@@ -38,6 +39,8 @@ Button_ImprovementClear=清空
 Button_Generate=生成
 Button_Clear=重置
 Button_TemplateClear=清除
+Button_VisualSourceClear=清除
+
 
 CheckBox_DefaultDurability=使用默认耐久
 CheckBox_HistoricalArtifact=史实宝物
@@ -506,6 +509,14 @@ visual_fp2_2p_chess_board=幸运棋盘
 visual_fp2_4p_chess_board=四人棋盘
 visual_fp2_votive_crowns=西哥特还愿冠
 visual_fp2_andalusian_aquamanile=盥手礼水壶
+
+
+visual_source_house=家族
+visual_source_dynasty=宗族
+visual_source_primary_title=主头衔
+visual_source_title_d_shiite=头衔：什叶派哈里发国
+visual_source_title_d_sunni=头衔：逊尼派哈里发国
+visual_source_dynasty_jamshid=宗族：贾姆希德
 
 
 event_templates=事件模板

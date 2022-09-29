@@ -1739,6 +1739,39 @@
 	=fp2_andalusian_aquamanile
 
 
+#visual_source_allowlist
+=banner
+=banner_islam
+=wall_shield_medi
+=wall_shield
+
+#visual_source_items
+=house
+=dynasty
+=primary_title
+=title_d_shiite
+=title_d_sunni
+=dynasty_jamshid
+
+	#visual_source_item_house
+	=root.house
+	
+	#visual_source_item_dynasty
+	=root.dynasty
+	
+	#visual_source_item_primary_title
+	=root.primary_title
+	
+	#visual_source_item_title_d_shiite
+	=title:d_shiite
+	
+	#visual_source_item_title_d_sunni
+	=title:d_sunni
+	
+	#visual_source_item_dynasty_jamshid
+	=dynasty:jamshid
+
+
 #file_00_event_templates
 =event_templates
 

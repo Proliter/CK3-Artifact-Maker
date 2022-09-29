@@ -30,6 +30,7 @@ namespace ArtifactMaker
         private List<string> dataRarity;
         private List<string> dataTypeCategory;
         private List<string> dataVisualCategory;
+        private List<string> dataVisualSource;
         private List<string> dataTemplateCategory;
         private List<string> dataModifierCategory;
         private List<string> dataImprovementCategory;
@@ -51,6 +52,7 @@ namespace ArtifactMaker
         private List<string> localisationRarity = new List<string>();
         private List<string> localisationTypeCategory = new List<string>();
         private List<string> localisationVisualCategory = new List<string>();
+        private List<string> localisationVisualSource = new List<string>();
         private List<string> localisationTemplateCategory = new List<string>();
         private List<string> localisationModifierCategory = new List<string>();
         private List<string> localisationImprovementCategory = new List<string>();
@@ -72,6 +74,7 @@ namespace ArtifactMaker
             dataRarity = Data.get("rarity");
             dataTypeCategory = Data.get("type_category");
             dataVisualCategory = Data.get("visual_category");
+            dataVisualSource = Data.get("visual_source_items");
             dataTemplateCategory = Data.get("template_category");
             dataModifierCategory = Data.get("modifier_category");
             dataImprovementCategory = Data.get("improvement_category");
@@ -191,6 +194,8 @@ namespace ArtifactMaker
                 //improvement
                 Localisation.loadLocalisationFirstLevel(dataImprovementCategory, localisationImprovementCategory, "improvement_");
                 Localisation.loadLocalisationSecondLevel(dataImprovementDetail, localisationImprovementDetail, "improvement_detail_");
+                //visual source
+                Localisation.loadLocalisationFirstLevel(dataVisualSource, localisationVisualSource, "visual_source_");
 
                 //listview
                 listviewModifierColumn_0.Header = Localisation.get("ListView_ModifierColumn_0");
@@ -254,6 +259,7 @@ namespace ArtifactMaker
             storeCombobox.Push(new Tuple<ComboBox, int>(comboboxDefaultDescriptionDetail, comboboxDefaultDescriptionDetail.SelectedIndex));
             storeCombobox.Push(new Tuple<ComboBox, int>(comboboxTypeDetail, comboboxTypeDetail.SelectedIndex));
             storeCombobox.Push(new Tuple<ComboBox, int>(comboboxVisualDetail, comboboxVisualDetail.SelectedIndex));
+            storeCombobox.Push(new Tuple<ComboBox, int>(comboboxVisualSource, comboboxVisualSource.SelectedIndex));
             storeCombobox.Push(new Tuple<ComboBox, int>(comboboxTemplateDetail, comboboxTemplateDetail.SelectedIndex));
 
 
@@ -271,6 +277,7 @@ namespace ArtifactMaker
             storeAndRefreshCombobox(comboboxDefaultDescriptionCategory, localisationDefaultDescriptionCategory);
             storeAndRefreshCombobox(comboboxTypeCategory, localisationTypeCategory);
             storeAndRefreshCombobox(comboboxVisualCategory, localisationVisualCategory);
+            storeAndRefreshCombobox(comboboxVisualSource, localisationVisualSource);
             storeAndRefreshCombobox(comboboxTemplateCategory, localisationTemplateCategory);
             storeAndRefreshCombobox(comboboxModifierCategory, localisationModifierCategory);
             storeAndRefreshCombobox(comboboxImprovementCategory, localisationImprovementCategory);
@@ -353,6 +360,28 @@ namespace ArtifactMaker
 
             switch (name)
             {
+                case "comboboxVisualDetail":    //choose VisualSource is Hidden or not
+                    if (comboboxVisualDetail.SelectedIndex != -1)
+                    {
+                        List<string> visualSourceAllowlist = Data.get("visual_source_allowlist");
+                        string selectedVisual = dataVisualDetail[comboboxVisualCategory.SelectedIndex][comboboxVisualDetail.SelectedIndex];
+
+                        if (visualSourceAllowlist.Contains(selectedVisual))
+                        {
+                            gridVisualSource.Visibility = Visibility.Visible;
+                        }
+                        else
+                        {
+                            comboboxVisualSource.SelectedIndex = -1;
+                            gridVisualSource.Visibility = Visibility.Collapsed;
+                        }
+                    }
+                    else
+                    {
+                        comboboxVisualSource.SelectedIndex = -1;
+                        gridVisualSource.Visibility = Visibility.Collapsed;
+                    }
+                    break;
                 case "comboboxDefaultNameCategory": //special
                 case "comboboxDefaultDescriptionCategory":  //special
                 case "comboboxTypeCategory":
@@ -809,6 +838,11 @@ namespace ArtifactMaker
             artifact.rarity = dataRarity[comboboxRarity.SelectedIndex];
             artifact.type = dataTypeDetail[comboboxTypeCategory.SelectedIndex][comboboxTypeDetail.SelectedIndex];
             artifact.visuals = dataVisualDetail[comboboxVisualCategory.SelectedIndex][comboboxVisualDetail.SelectedIndex];
+            if(comboboxVisualSource.SelectedIndex >= 0)
+            {
+                artifact.visualSource = Data.get("visual_source_item_" + dataVisualSource[comboboxVisualSource.SelectedIndex])[0];
+            }
+
             //template
             if (advancedMode == true)
             {
@@ -926,6 +960,11 @@ namespace ArtifactMaker
         private void buttonTemplateClearClick(object sender, RoutedEventArgs e)
         {
             comboboxTemplateCategory.SelectedIndex = -1;
+        }
+
+        private void buttonVisualSourceClick(object sender, RoutedEventArgs e)
+        {
+            comboboxVisualSource.SelectedIndex = -1;
         }
 
         private void checkboxHistoricalArtifactCheckedChange(object sender, RoutedEventArgs e)
