@@ -10,6 +10,7 @@ namespace ArtifactMaker
         public string name = "";
         public string description = "";
         public SortedSet<string> scopes = new SortedSet<string>();
+        public SortedDictionary<string, string> variables = new SortedDictionary<string, string>();//name , value
         public string type = "";
         public string visuals = "";
         public string rarity = "";
@@ -103,13 +104,9 @@ namespace ArtifactMaker
                 "scope:newly_created_artifact = {",
                 "    save_scope_as = this_artifact"
             };
-            if(string.Equals(template, "house_banner_template"))
+            foreach(var variable in variables)
             {
-                info.Add("    set_variable = { name = banner_house value = root.house }");
-            }
-            if(string.Equals(template, "dynasty_banner_template"))
-            {
-                info.Add("    set_variable = { name = banner_dynasty value = root.dynasty }");
+                info.Add("    set_variable = { name = " + variable.Key + " value = " + variable.Value + " }");
             }
 
             foreach (var improvement in improvements)
@@ -379,7 +376,7 @@ namespace ArtifactMaker
 
         private bool isAdvanced()
         {
-            if (improvements.Count > 0 || scopes.Count > 0 || wealth != null || quality != null || string.Equals(template, "house_banner_template") || string.Equals(template, "dynasty_banner_template"))
+            if (improvements.Count > 0 || scopes.Count > 0 || wealth != null || quality != null || variables.Count > 0)
             {
                 return true;
             }

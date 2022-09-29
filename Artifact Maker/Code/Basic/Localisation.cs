@@ -236,7 +236,13 @@ namespace ArtifactMaker
 
             foreach (var item in key)
             {
-                string temp = get(prefix + item);
+                string trans = prefix + item;
+                if (trans.Contains('@'))
+                {
+                    trans = trans.Substring(0, trans.IndexOf('@'));//delete chars after @
+                }
+
+                string temp = get(trans);
                 target.Add(temp);
             }
         }

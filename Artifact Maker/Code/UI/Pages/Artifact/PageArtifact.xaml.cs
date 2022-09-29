@@ -290,7 +290,7 @@ namespace ArtifactMaker
 
             return;
 
-            void storeAndRefreshCombobox(ComboBox comboBox, List<string> loc)
+            static void storeAndRefreshCombobox(ComboBox comboBox, List<string> loc)
             {
                 comboBox.ItemsSource = loc;
                 comboBox.Items.Refresh();
@@ -484,8 +484,20 @@ namespace ArtifactMaker
         {
             string temp = ((TextBox)sender).Text + e.Text;
 
-            Regex regex = new Regex(@"^[1-9]\d*$");
+            if (temp == "0")
+            {
+                return;
+            }
 
+            Regex zeroRegex = new Regex(@"^0+$");//only 0
+            if (zeroRegex.IsMatch(temp))
+            {
+                e.Handled = true;
+                ((TextBox)sender).Text = "0";
+                return;
+            }
+
+            Regex regex = new Regex(@"^[1-9]\d*$");
             if (!regex.IsMatch(temp))
             {
                 e.Handled = true;
@@ -802,7 +814,23 @@ namespace ArtifactMaker
             {
                 if (comboboxTemplateDetail.SelectedIndex >= 0)
                 {
-                    artifact.template = dataTemplateDetail[comboboxTemplateCategory.SelectedIndex][comboboxTemplateDetail.SelectedIndex];
+                    string sourceTemplate = dataTemplateDetail[comboboxTemplateCategory.SelectedIndex][comboboxTemplateDetail.SelectedIndex];
+                    if (sourceTemplate.Contains('@'))//has variable
+                    {
+                        Regex regex = new Regex(@"(.+)@(.+)\|(.+)");
+                        var result = regex.Match(sourceTemplate);
+
+                        artifact.template = result.Groups[1].Value;
+                        artifact.variables.Add(result.Groups[2].Value, result.Groups[3].Value);
+
+                        //artifact.template = sourceTemplate.Substring(0, sourceTemplate.IndexOf('='));
+                        //string sourceVariable = sourceTemplate.Substring(sourceTemplate.IndexOf('=') + 1);
+                        //artifact.variables.Add(sourceVariable.Substring(0, sourceVariable.IndexOf('|')), sourceVariable.Substring(sourceVariable.IndexOf('|') + 1));
+                    }
+                    else
+                    {
+                        artifact.template = sourceTemplate;
+                    }
                 }
             }
             else

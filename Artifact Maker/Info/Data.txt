@@ -1755,7 +1755,7 @@
 
 	#event_templates
 	=arabic_book_template
-	=small_religious_carving_template
+	=small_religious_carving_template@relic_religion|root.faith.religion
 
 	#historical_artifacts_templates
 	=ark_covenant_template
@@ -1787,15 +1787,15 @@
 	=branch_hinduism_template
 	=relic_finno_ugric_template
 	=jainism_artifact_template
-	=branch_general_template
+	=branch_general_template@relic_religion|root.faith.religion
 	=cross_template
 	=christian_relic_template
 	=islam_relic_template
 	=buddhism_relic_template
 	=judaism_relic_template
-	=religious_statue_template
-	=6050_relic_template
-	=saintly_bones_template
+	=religious_statue_template@statue_religion|root.faith.religion
+	=6050_relic_template@statue_religion|root.faith.religion
+	=saintly_bones_template@saint_bone_faith|root.faith
 	=general_unique_template
 	=child_toy_template
 	=adults_only_template
@@ -1805,8 +1805,8 @@
 	=crown_christian_relic_template
 
 	#type_templates
-	=house_banner_template
-	=dynasty_banner_template
+	=house_banner_template@banner_house|root.house
+	=dynasty_banner_template@banner_dynasty|root.dynasty
 
 
 #modifier_category
